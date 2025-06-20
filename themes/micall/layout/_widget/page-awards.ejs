@@ -1,0 +1,157 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+    
+    .background {
+        width: 100%;
+        max-width: 72rem;
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+    }
+    
+    .record {
+        color: #4e5052;
+        list-style-position: outside;
+        list-style-type: none;
+        font-size: 15px;
+        box-orient: horizontal;
+    }
+    
+    .box {
+        padding-top: 15px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        display: flex;
+        border: 0px;
+    }
+    
+    .pic {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 16rem;
+        display: inline;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #4e5052;
+        margin-bottom: 0px;
+    }
+    
+    .awd {
+        color: #4e5052;
+        width: 70%;
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+    
+    @media screen and (max-width: 736px) {
+        .box {
+            display: block;
+            align-content: center;
+            padding: 2% 5%;
+        }
+        .awd {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+                        <% for (var i in site.data.awards) { %>
+                            <div class="category">
+                                <%= site.data.awards[i].head %>
+                            </div>
+
+                            <% for (var j in site.data.awards[i].awd) { %>
+                                <div class="background">
+                                    <li class='record'>
+                                        <div class='box'>
+                                            <div class='pic'>
+                                                <img src='<%= site.data.awards[i].awd[j].pic %>'>
+                                            </div>
+                                            <div class='awd'>
+                                                <b><%= site.data.awards[i].awd[j].head %></b><br>
+                                                <br>
+                                                <%- site.data.awards[i].awd[j].author %><br>
+                                                    <%- site.data.awards[i].awd[j].journal %><br>
+
+                                                        <% if (site.data.awards[i].awd[j].pdflink != null) { %>
+                                                            | Paper |
+                                                            <a href="<%= site.data.awards[i].awd[j].pdflink %>">
+                                                                <%= site.data.awards[i].awd[j].pdfinfo %>
+                                                            </a>
+                                                            <%}%>
+
+                                                                <% if (site.data.awards[i].awd[j].videolink != null) { %>
+                                                                    | Video |
+                                                                    <a href="<%= site.data.awards[i].awd[j].videolink %>">
+                                                                        <%= site.data.awards[i].awd[j].videoinfo %>
+                                                                    </a>
+                                                                    <%}%>
+
+                                                                        <% if (site.data.awards[i].awd[j].posterlink != null) { %>
+                                                                            | Poster |
+                                                                            <a href="<%= site.data.awards[i].awd[j].posterlink %>">
+                                                                                <%= site.data.awards[i].awd[j].posterinfo %>
+                                                                            </a>
+                                                                            <%}%>
+
+                                                                                <% if (site.data.awards[i].awd[j].slideslink != null) { %>
+                                                                                    | Slides |
+                                                                                    <a href="<%= site.data.awards[i].awd[j].slideslink %>">
+                                                                                        <%= site.data.awards[i].awd[j].slidesinfo %>
+                                                                                    </a>
+                                                                                    <%}%>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <%}%>
+
+                                    <%}%>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+</body>

@@ -1,0 +1,355 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<style type="text/css">
+    .category {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .student-type {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+    }
+
+    .row {
+        margin-top: 25px;
+    }
+
+    .our-team {
+        padding: 30px 0 40px;
+        background: #ffffffeb;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        height: 250px;
+    }
+
+    .our-team .pic {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .our-team .pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .our-team:hover .pic img {
+        transform: scale(1.3);
+    }
+
+    .our-team .team-content {
+        margin-bottom: 30px;
+    }
+
+    .our-team .title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #4e5052;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+
+    .our-team .post {
+        display: block;
+        font-size: 14px;
+        color: #4e5052;
+        padding: 0 5px 0 5px;
+    }
+
+    .our-team .social {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: #4e5052;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .our-team:hover .social {
+        bottom: 0;
+    }
+
+    .our-team .social li {
+        display: inline-block;
+    }
+
+    .our-team .social li a {
+        display: block;
+        padding: 10px;
+        font-size: 17px;
+        color: #fff;
+        transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:hover {
+        color: #110;
+        background: #f7f5ec;
+    }
+
+    .box {
+        padding-top: 10px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        display: flex;
+        border: 0px;
+    }
+
+    .picd {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 20%;
+        display: inline;
+    }
+
+    .picd img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .desc_director {
+        width: 70%;
+        display: inline;
+        margin-left: 5%;
+        color: #4e5052;
+        font-size: 1rem;
+    }
+
+    .background {
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 990px) {
+        .our-team {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media screen and (max-width: 736px) {
+        #boxd {
+            display: block;
+            padding: 2% 5%;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+                        <% for (var i in site.data.graduated) { %>
+                            <div class="row">
+                                <div class="category">
+                                    <%= site.data.graduated[i].head %>届
+                                </div>
+
+                                <!-- <div class="row"> -->
+                                <% if (site.data.graduated[i].phds) { %>
+                                    <div class="row">
+                                        <div class="student-type">
+                                            ———— 博士毕业生 ————
+                                        </div>
+
+                                        <% for (var j in site.data.graduated[i].phds) { %>
+                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                <div class="our-team">
+                                                    <div class="pic">
+                                                        <img src="<%= site.data.graduated[i].phds[j].avatar %>">
+                                                    </div>
+                                                    <div class="team-content">
+                                                        <h3 class="title">
+                                                            <%= j %>
+                                                        </h3>
+
+                                                        <% if (site.data.graduated[i].phds[j].descr !=null) { %>
+                                                            <Span class="post">毕业去向：<%=
+                                                                    site.data.graduated[i].phds[j].descr %>
+                                                            </Span>
+                                                            <%}%>
+                                                    </div>
+                                                    <ul class="social">
+                                                        <% if (site.data.graduated[i].phds[j].link !=null) { %>
+                                                            <li>
+                                                                <a href="<%= site.data.graduated[i].phds[j].link%>"
+                                                                    class="fa fa-link"></a>
+                                                            </li>
+                                                            <%}%>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <% } %>
+                                    </div>
+                                    <% } %>
+
+                                        <% if (site.data.graduated[i].masters) { %>
+                                            <div class="row">
+                                                <div class="student-type">
+                                                    ———— 硕士毕业生 ————
+                                                </div>
+                                                <% for (var j in site.data.graduated[i].masters) { %>
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="<%= site.data.graduated[i].masters[j].avatar %>">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    <%= j %>
+                                                                </h3>
+
+                                                                <% if (site.data.graduated[i].masters[j].descr !=null) {
+                                                                    %>
+                                                                    <Span class="post">毕业去向：<%=
+                                                                            site.data.graduated[i].masters[j].descr %>
+                                                                    </Span>
+                                                                    <%}%>
+                                                            </div>
+                                                            <ul class="social">
+                                                                <% if (site.data.graduated[i].masters[j].link !=null) {
+                                                                    %>
+                                                                    <li>
+                                                                        <a href="<%= site.data.graduated[i].masters[j].link%>"
+                                                                            class="fa fa-link"></a>
+                                                                    </li>
+                                                                    <%}%>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <% } %>
+                                            </div>
+                                            <% } %>
+
+
+                                                <% if (site.data.graduated[i].undergraduates) { %>
+                                                    <div class="row">
+                                                        <div class="student-type">
+                                                            ———— 本科毕业生 ————
+                                                        </div>
+                                                        <% for (var j in site.data.graduated[i].undergraduates) { %>
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="<%= site.data.graduated[i].undergraduates[j].avatar %>">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            <%= j %>
+                                                                        </h3>
+
+                                                                        <% if
+                                                                            (site.data.graduated[i].undergraduates[j].descr
+                                                                            !=null) { %>
+                                                                            <Span class="post">毕业去向：<%=
+                                                                                    site.data.graduated[i].undergraduates[j].descr
+                                                                                    %>
+                                                                            </Span>
+                                                                            <%}%>
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        <% if
+                                                                            (site.data.graduated[i].undergraduates[j].link
+                                                                            !=null) { %>
+                                                                            <li>
+                                                                                <a href="<%= site.data.graduated[i].undergraduates[j].link%>"
+                                                                                    class="fa fa-link"></a>
+                                                                            </li>
+                                                                            <%}%>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <% } %>
+                                                    </div>
+                                                    <% } %>
+
+
+                                                        <% if (site.data.graduated[i].visitings) { %>
+                                                            <div class="row">
+                                                                <div class="student-type">
+                                                                    ———— 毕业生校友 ————
+                                                                </div>
+                                                                <% for (var j in site.data.graduated[i].visitings) { %>
+                                                                    <div class="col-md-2 col-sm-6"
+                                                                        style="margin-top: 30px">
+                                                                        <div class="our-team">
+                                                                            <div class="pic">
+                                                                                <img
+                                                                                    src="<%= site.data.graduated[i].visitings[j].avatar %>">
+                                                                            </div>
+                                                                            <div class="team-content">
+                                                                                <h3 class="title">
+                                                                                    <%= j %>
+                                                                                </h3>
+
+                                                                                <% if
+                                                                                    (site.data.graduated[i].visitings[j].descr
+                                                                                    !=null) { %>
+                                                                                    <Span class="post">毕业去向：<%=
+                                                                                            site.data.graduated[i].visitings[j].descr
+                                                                                            %>
+                                                                                    </Span>
+                                                                                    <%}%>
+                                                                            </div>
+                                                                            <ul class="social">
+                                                                                <% if
+                                                                                    (site.data.graduated[i].visitings[j].link
+                                                                                    !=null) { %>
+                                                                                    <li>
+                                                                                        <a href="<%= site.data.graduated[i].visitings[j].link%>"
+                                                                                            class="fa fa-link"></a>
+                                                                                    </li>
+                                                                                    <%}%>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <% } %>
+                                                            </div>
+                                                            <% } %>
+                            </div>
+                            <% } %>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+</body>

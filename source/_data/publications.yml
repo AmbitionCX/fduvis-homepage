@@ -1,0 +1,693 @@
+# 相对路径：/micall/source
+pub_2025:
+      head: '2025'
+      pub:
+            pub4:
+                  pic: /publications/narrativeplayer.png
+                  head: 'Narrative Player: Reviving Data Narratives with Visuals.'
+                  author: <b>Zekai Shao</b>, Leixian Shen, Haotian Li, <b>Yi Shan</b>, Huamin Qu, <b>Yun Wang*</b>, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics</em>, Accepted, 2025."
+                  project: storytelling
+
+            pub3:
+                  pic: /publications/ChartInsighter.png
+                  head: 'ChartInsighter: An Approach for Mitigating Hallucination in Time-series Chart Summary Generation with A Benchmark Dataset.'
+                  author: <b>Fen Wang</b>, <b>Bomiao Wang</b>, <b>Xueli Shu</b>, <b>Zhen Liu</b>, <b>Zekai Shao</b>, Chao Liu, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis'25)</em>, Accepted, 2025."
+                  project: interactive_ai
+
+            pub2:
+                  pic: /publications/DTBIA.png
+                  head: 'DTBIA: An Immersive Visual Analytics System for Brain-Inspired Research.'
+                  author: <b>Jun-Hsiang Yao</b>, <b>Mingzheng Li</b>, <b>Jiayi Liu</b>, <b>Yuxiao Li</b>, <b>Jielin Feng</b>, Jun Han, Qibao Zheng, Jianfeng Feng, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis'25)</em>, Accepted, 2025."
+                  project: digital_twins
+
+            pub1:
+                  pic: /publications/VisTaxa.png
+                  head: 'VisTaxa: Developing a Taxonomy of Old Visualizations.'
+                  author: <b>Yu Zhang</b>, Xinyue Chen, <b>Weili Zheng</b>, <b>Yuhan Guo</b>, Guozheng Li, <b>Siming Chen*</b>, Xiaoru Yuan*.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis'25)</em>, Accepted, 2025."
+                  project: digital_humanities
+
+            pub0:
+                  pic: /publications/Fine-tuned.png
+                  head: 'Fine-tuned large language model for visualization system: A study on self-regulated learning in education.'
+                  author: <b>Lin Gao</b>, <b>Jing Lu</b>, <b>Zekai Shao</b>, <b>Ziyue Lin</b>, Shengbin Yue, <b>Chiokit Ieong</b>, <b>Yi Sun</b>, Rory James Zauner, Zhongyu Wei, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS24)</em>, Accepted, 2025."
+                  project: interactive_ai
+
+pub_2024:
+      head: '2024'
+      pub:
+            pub10:
+                  pic: /publications/LightVA.png
+                  head: 'LightVA: Lightweight visual analytics with LLM agent-based task planning and execution.'
+                  author: <b>Yuheng Zhao</b>, <b>Junjie Wang</b>, <b>Linbin Xiang</b>, <b>Xiaowen Zhang</b>, <b>Zifei Guo</b>, Cagatay Turkay, <b>Yu Zhang</b>, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics</em>, Accepted, 2024."
+                  project: interactive_ai
+
+            pub12:
+                  pic: /publications/LEVA.png
+                  head: 'LEVA: Using large language models to enhance visual analytics.'
+                  author: <b>Yuheng Zhao</b>, <b>Yixing Zhang</b>, <b>Yu Zhang</b>, <b>Xinyi Zhao</b>, <b>Junjie Wang</b>, <b>Zekai Shao</b>, Cagatay Turkay, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics</em>, Accepted, 2024."
+                  project: interactive_ai
+
+            pub9:
+                  pic: /publications/scaletraversal.png
+                  head: 'ScaleTraversal: Creating Multi-Scale Biomedical Animation with Limited Hardware Resources.'
+                  author: Richen Liu, Hansheng Wang, Hailong Wang, Siru Chen, Chufan Lai, Ayush Kumar, <b>Siming Chen*</b>.
+                  journal: "<em>ACM Multimedia</em> 2024: 2603-2612."
+                  project: scientific_applications
+            
+            pub13:
+                  pic: /publications/SoccerGames.png
+                  head: 'Interactive Visual Analytics for Reward Function Setting of Reinforcement Learning: A Case Study of Soccer Games.'
+                  author: <b>Yihang Hu</b>, <b>Weixuan Song</b>, <b>Xingui Lai</b>, Jie Li, <b>Siming Chen*</b>.
+                  journal: "<em>VINCI (Honorable mention of best paper award)</em> 2024: 26:1."
+                  project: interactive_ai
+
+            pub8:
+                  pic: /publications/guest.jpg
+                  head: "Visual Computing for Autonomous Driving. (Guest Editors' Introduction)"
+                  author: <b>Siming Chen</b>, Liang Gou, Michael Kamp, Dong Sun.
+                  journal: "<em>IEEE Computer Graphics and Applications (CG&A)</em>,  44:11-13 2024, Accepted."
+                  project: autonomous_driving
+
+            pub11:
+                  pic: /publications/humanbrain.png
+                  head: 'Simulation and assimilation of the digital human brain.'
+                  author: Wenlian Lu, Xin Du, Jiexiang Wang, Longbin Zeng, Leijun Ye, Shitong Xiang, Qibao Zheng, Jie Zhang, Ningsheng Xu, Jianfeng Feng, Yubin Bao, Boyu Chen, <b>Siming Chen</b>, Zhongyu Chen, Fei Dai, Weiyang Ding, Xin Du, Jianfeng Feng, Yubo Hou, Mingda Ji, Peng Ji, Chong Li, Chunhe Li, Xiaoyi Li, Yuhao Liu, Wenlian Lu, Zhihui Lv, Hengyuan Ma, Yang Qi, Edmund T. Rolls, He Wang, Huarui Wang, Shouyan Wang, Ziyi Wang, Yunman Xia, Chao Xie, Xiangyang Xue, Tianping Zeng, Chenfei Zhang, Nan Zhang, Wenyong Zhang, Yicong
+                  journal: "<em>Nature Computational Science.</em> 4(12): 890-898, 2024."
+                  project: digital_twins
+
+            pub7:
+                  pic: /publications/DynamicScene.png
+                  head: 'Dynamic-Scene-Graph-Supported Visual Understanding of Autonomous Driving Scenarios.'
+                  author: <b>Ting Liu</b>, Dong Sun, Chongke Bi, <b>Yi Sun</b>, <b>Siming Chen*</b>.
+                  journal: "<em>In Proceedings of IEEE Pacific Visualization Conference (PacificVis 2024)</em>, pages 82-91, Tokyo, Japan, 2024."
+                  project: autonomous_driving
+
+            pub6:
+                  pic: /publications/GraphNeural.png
+                  head: 'Graph-Neural-Network-Based User Intent Understanding for Visual Analytics.'
+                  author: <b>Yue Wang</b>, <b>Yusheng Qi</b>, Xiaolong Luke Zhang, <b>Siming Chen*</b>.
+                  journal: "<em>In Proceedings of IEEE Pacific Visualization Conference (PacificVis 2024)</em>, pages 11-21, Tokyo, Japan, 2024."
+                  project: interactive_ai
+
+            pub5:
+                  pic: /publications/CornerCase.jpg
+                  head: 'Interpreting Autonomous Driving Corner Cases: A Visual Analytics Approach.'
+                  author: <b>Yi Sun</b>, <b>Zekai Shao</b>, <b>Xingyu Qiu</b>, <b>Yun Li</b>, <b>Ting Liu</b>, <b>Linbing Xiang</b>, Dong Sun, <b>Siming Chen*</b>.
+                  journal: "<em>In Proceedings of IEEE Pacific Visualization Conference (PacificVis 2024)</em>, pages 92-101, Tokyo, Japan, 2024."
+                  project: autonomous_driving
+
+            pub4:
+                  pic: /publications/SecurityThreat.png
+                  head: 'Visual analytics for security threats detection in Ethereum consensus layer.'
+                  author: <b>Xuan Chen</b>, <b>Xincan Zhang</b>, <b>Zhaohan Wang</b>, <b>Kerun Yu</b>, <b>Wong Kam-Kwai</b>, Haoyun Guo, <b>Siming Chen*</b>.
+                  journal: "<em>Journal of Visualization</em>, 27(3): 469-483, 2024."
+                  project: security_analysis
+
+            pub14:
+                  pic: /publications/InterpretStack.png
+                  head: 'InterpretStack: Interpretable Exploration and Interactive Visualization Construction of Stacking Algorithm.'
+                  author: <b>Yu Wang</b>, <b>Jing Lu</b>, Le Liu, Junping Zhang, <b>Siming Chen*</b>.
+                  journal: "<em>VLDB Workshops</em> 2024."
+                  project: explainable_ai
+            
+            pub3:
+                  pic: /publications/GraphInterpreter.png
+                  head: 'GraphInterpreter: a visual analytics approach for dynamic networks evolution exploration via topic models.'
+                  author: Lijing Lin, Jiacheng Yu, Fan Hong, Chufan Lai, <b>Siming Chen</b>, Xiaoru Yuan
+                  journal: "<em>Journal of Visualization</em>, 2024."
+                  project: explainable_ai
+
+            pub15:
+                  pic: /publications/blk.png
+                  head: 'TopicRefiner: Coherence-Guided Steerable LDA for Visual Topic Enhancement.'
+                  author: Huan Yang, Jie Li, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Trans. Vis. Comput. Graph.</em> 30(8): 4542-4557, 2024."
+                  project: interactive_ai
+
+            pub16:
+                  pic: /publications/SoMeLVLM.png
+                  head: 'SoMeLVLM: A Large Vision Language Model for Social Media Processing.'
+                  author: Xinnong Zhang, Haoyu Kuang, Xinyi Mou, Hanjia Lyu, Kun Wu, <b>Siming Chen</b>, Jiebo Luo, Xuanjing Huang, Zhongyu Wei.
+                  journal: "<em>ACL (Findings)</em> 2024: 2366-2389."
+                  project: social_media
+
+            pub17:
+                  pic: /publications/Electionsim.png
+                  head: 'Electionsim: Massive population election simulation powered by large language model driven agents.'
+                  author: Xinnong Zhang, Jiayu Lin, Libo Sun, Weihong Qi, <b>Yihang Yang</b>, Yue Chen, Hanjia Lyu, Xinyi Mou, <b>Siming Chen</b>, Jiebo Luo, Xuanjing Huang, Shiping Tang, Zhongyu Wei.
+                  journal: "arXiv preprint arXiv:</em> 2410.20746, 2024."
+                  project: digital_humanities
+
+            pub2:
+                  pic: /publications/TransforLearn.png
+                  head: 'TransforLearn: Interactive Visual Tutorial for the Transformer Model.'
+                  author: <b>Lin Gao</b>, <b>Zekai Shao</b>, <b>Ziqin Luo</b>, Haibo Hu, Cagatay Turkay, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VIS'23)</em>, Accepted, 2024."
+                  project: explainable_ai
+
+            pub1:
+                  pic: /publications/OldVisOnline.png
+                  head: 'OldVisOnline: Curating a Dataset of Historical Visualizations.'
+                  author: <b>Yu Zhang</b>, Ruike Jiang, <b>Liwenhan Xie</b>, <b>Yuheng Zhao</b>, Can Liu, Tianhong Ding, <b>Siming Chen*</b>, Xiaoru Yuan*.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VIS'23)</em>, Accepted, 2024."
+                  codelink: 'https://github.com/oldvis'
+                  codeinfo: The OldVis Project
+                  project: digital_humanities
+
+pub_2023:
+      head: '2023'
+      pub:
+            pub17:
+                  pic: /publications/blk.png
+                  head: 'Interpreting High-Dimensional Projections With Capacity.'
+                  author: <b>Yang Zhang</b>, <b>Jisheng Liu</b>, Chufan Lai, Yuan Zhou, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2023."
+                  project: explainable_ai
+
+            pub10:
+                  pic: /publications/Wakey.png
+                  head: 'Wakey-Wakey: Animate Text by Mimicking Characters in a GIF.'
+                  author: <b>Liwenhan Xie</b>, <b>Zhaoyu Zhou</b>, <b>Kerun Yu</b>, <b>Yun Wang</b>, Huamin Qu, <b>Siming Chen*</b>.
+                  journal: "<em>the 36th Annual ACM Symposium on User Interface Software and Technology (UIST'23)</em>, Accepted, 2023."
+                  project: digital_humanities
+
+            pub9:
+                  pic: /publications/Emordle.png
+                  head: 'Creating Emordle: Animating Word Cloud for Emotion Expression.'
+                  author: <b>Liwenhan Xie</b>, Xinhuan Shu, Jeon Cheol Su, <b>Yun Wang</b>, <b>Siming Chen*</b>.
+                  journal: '<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2023.'
+                  project: digital_humanities
+
+            pub8:
+                  pic: /publications/openqa.png
+                  head: 'Visual Explanation for Open-domain Question Answering with BERT.'
+                  author: <b>Zekai Shao</b>, <b>Shuran Sun</b>, <b>Yuheng Zhao</b>, Siyuan Wang, Zhongyu Wei, Tao Gui, Cagatay Turkay, <b>Siming Chen</b>*.
+                  journal: '<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2023.'
+                  pdflink: 'http://simingchen.me/docs/tvcg23-openqa.pdf'
+                  pdfinfo: pdf (14.0MB)
+                  videolink: 'http://simingchen.me/docs/tvcg23-openqa.mp4'
+                  videoinfo: mp4 (25.3MB)
+                  project: explainable_ai
+
+            pub7:
+                  pic: /publications/ContextWing.png
+                  head: 'ContextWing: Pair-wise Visual Comparison for Evolving Sequential Patterns of Contexts in Social Media Data Streams.'
+                  author: <b>Yuheng Zhao</b>, <b>Xinyu Wang</b>, Chen Guo, Min Lu, <b>Siming Chen*</b>.
+                  journal: <em>The 25th ACM Conference On Computer-Supported Cooperative Work And Social Computing (CSCW'23)</em>, Accepted, 2023.
+                  project: social_media
+
+            pub6:
+                  pic: /publications/GeoCamera.png
+                  head: 'GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements.'
+                  author: Wenchao Li, <b>Zhan Wang</b>, <b>Yun Wang*</b>, Di Weng, <b>Liwenhan Xie</b>, <b>Siming Chen*</b>, Haidong Zhang, and Huamin Qu.
+                  journal: <em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'23)</em>, Accepted, 2023.
+                  pdflink: 'http://simingchen.me/docs/chi23-geocamera.pdf'
+                  pdfinfo: pdf (22.5MB)
+                  project: storytelling
+
+            pub5:
+                  pic: /publications/NetworkNarratives.png
+                  head: 'NetworkNarratives: Data Tours for Visual Network Exploration and Analysis.'
+                  author: Wenchao Li, Sarah Schöttler, James Scott-Brown, <b>Yun Wang</b>, <b>Siming Chen</b>, Huamin Qu, and Benjamin Bach, Dongmei Zhang.
+                  journal: <em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'23)</em>, Accepted, 2023.
+                  pdflink: 'http://simingchen.me/docs/chi23-networknerrative.pdf'
+                  pdfinfo: pdf (14.0MB)
+                  project: storytelling
+
+            pub11:
+                  pic: /publications/TopicBubbler.jpg
+                  head: 'TopicBubbler: An interactive visual analytics system for cross-level fine-grained exploration of social media data.'
+                  author: <b>Jielin Feng</b>, <b>Kehao Wu</b>, <b>Siming Chen</b>*.
+                  journal: <em>Visual Informatics</em>, Accepted, 2023.
+                  project: social_media
+
+            pub4:
+                  pic: /publications/vr23-workshop.png
+                  head: 'Visual Exploration and Planning of the Automated Material Handling System for Smart Factory in the Immersive Environment.'
+                  author: <b>Yifei Zhang</b>, Yougao Li, Xiangyang Xue, Jianfeng Feng, <b>Siming Chen*</b>.
+                  journal: '<em>In Proceedings of IEEE VR 2023 Workshop: Mixing Realities: Cross-reality Visualization, Interaction, and Collaboration</em>, Accepted, 2023.'
+                  pdflink: '/publications/Visual_Exploration_and_Planning_of_the_Automated_Material_Handling_System_in_the_Virtual_Environment_2.pdf'
+                  pdfinfo: pdf (1.5MB)
+                  videolink: '/publications/amhs_demo.mp4'
+                  videoinfo: mp4 (52.2MB)
+                  project: digital_twins
+
+            pub12:
+                  pic: /publications/blk.png
+                  head: 'Intelligent visualization and visual analytics.'
+                  author: Jun Tao, <b>Yu Zhang</b>, Qing Chen, Can Liu, <b>Siming Chen</b>, Xiaoru Yuan.
+                  journal: <em>Journal of Image and Graphics</em>, in Chinese, 28(06):1909-1926, 2023.
+                  project: interactive_ai
+
+            pub3:
+                  pic: /publications/DTBVis.png
+                  head: 'DTBVis: An interactive visual comparison system for digital twin brain and human brain.'
+                  author: <b>Yuxiao Li</b>, <b>Xinhong Li</b>, <b>Siqi Shen</b>, Longbin Zeng, Richen Liu, Qibao Zheng, Jianfeng Feng, <b>Siming Chen*</b>.
+                  journal: <em>Visual Informatics</em>, Accepted, 2023.
+                  project: digital_twins
+
+            pub13:
+                  pic: /publications/blk.png
+                  head: 'Visual Analytics for Phishing Scam Identification in Blockchain Transactions with Multiple ModelComparison.'
+                  author: <b>Jiaqi Dong</b>, <b>Zishu Qin</b>, <b>Zhou Fang</b>, <b>Xuan Chen</b>, Zengfeng Huang, Haoyun Guo, Richen Liu, Cagatay Turkay, <b>Siming Chen*</b>.
+                  journal: <em>The 15th International Symposium on Visual Information Communication and Interaction (VINCI)</em>, Accepted, 2023.
+                  project: financial_technology
+
+            pub14:
+                  pic: /publications/blk.png
+                  head: 'Intelligent Government Decision-Making: A Multidimensional Policy Text Visualization Analysis System.'
+                  author: <b>Chen Lan</b>, <b>Xuexi Wang</b>, Junxia Ren, Xiaoxu Chen, <b>Siming Chen*</b>.
+                  journal: <em>Communications in Computer and Information Science (Big Data and Social Computing, BDSC)</em>, 135-151, 2023.
+                  project: digital_humanities
+
+            pub15:
+                  pic: /publications/blk.png
+                  head: 'A Survey of Visualization in Data Journalism: Theory and Practice.'
+                  author: <b>Mengqin Cheng</b>, Baohua Zhou, <b>Siming Chen*</b>.
+                  journal: <em>Journal of Computer-Aided Design & Computer Graphics (CAD&CG, ChinaVis'22)</em>, Accepted, in Chinese, 2023.
+                  project: storytelling
+
+            pub16:
+                  pic: /publications/blk.png
+                  head: 'Interactive tree and ranking-based fund data visual analysis.'
+                  author: <b>Feifan Wang</b>, <b>Liwenhan Xie</b>, Xuanwu Yue, Yangyang Su, Guobing Zhou, Ji Feng, Xiahai Zhuang, <b>Siming Chen*</b>.
+                  journal: <em>Journal of Computer-Aided Design & Computer Graphics (CAD&CG, ChinaVis'22)</em>, Accepted, 2023.
+                  project: financial_technology
+
+            pub2:
+                  pic: /news/391.png
+                  head: 'Diverse Interaction Recommendation for Public Users Exploring Multi-view Visualization using Deep Learning.'
+                  author: <b>Yixuan Li</b>, <b>Yusheng Qi</b>, Yang Shi, Qing Chen, Nan Cao, <b>Siming Chen*</b>.
+                  journal: <em>IEEE Transactions on Visualization and Computer Graphics (VIS'22)</em>, Accepted, 2023.
+                  pdflink: 'http://simingchen.me/docs/vis22-diverse.pdf'
+                  pdfinfo: pdf (5.8MB)
+                  project: interactive_ai
+
+            pub1:
+                  pic: /publications/cohortva.png
+                  head: 'CohortVA: A Visual Analytic System for Progressive Exploration of Cohorts based on Historical Data.'
+                  author: Wei Zhang, Jason Wong, Xumeng Wang, Youcheng Gong, Rongchen Zhu, Kai Liu, Zihan Yan, Siwei Tan, Huamin Qu, <b>Siming Chen</b>, Wei Chen.
+                  journal: <em>IEEE Transactions on Visualization and Computer Graphics (VIS'22)</em>, Accepted, 2023.
+                  pdflink: 'http://simingchen.me/docs/vis22_cohort.pdf'
+                  pdfinfo: pdf (8.8MB)
+                  project: digital_humanities
+
+pub_2022:
+      head: '2022'
+      pub:
+            pub10:
+                  pic: /news/421.png
+                  head: 'When, Where and How does it fail? A Spatial-temporal Visual Analytics Approach for Interpretable Object Detection in Autonomous Driving.'
+                  author: <b>Junhong Wang</b>, <b>Yun Li</b>, <b>Zhaoyu Zhou</b>, <b>Chengshun Wang</b>, <b>Yijie Hou</b>, Li Zhang, Xiangyang Xue, Michael Kamp, Xiaolong (Luke) Zhang, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics</em>, Accepted, 2022."
+                  pdflink: 'http://simingchen.me/docs/tvcg22_junhong.pdf'
+                  videolink: 'http://simingchen.me/docs/tvcg22_junhong.mp4'
+                  pdfinfo: pdf (11.9MB)
+                  videoinfo: mp4 (35.6MB)
+                  project: autonomous_driving
+
+            pub1:
+                  pic: /news/111.png
+                  head: 'Visual Evaluation for Autonomous Driving.'
+                  author: <b>Yijie Hou</b>, <b>Chengshun Wang</b>, <b>Junhong Wang</b>, Xiangyang Xue, Xiaolong (Luke) Zhang, Jun Zhu, Dongliang Wang, <b>Siming Chen*</b>.
+                  journal: <em>IEEE Transactions on Visualization and Computer Graphics (VIS'21)</em>, Accepted, 2022.
+                  pdflink: 'http://simingchen.me/docs/vis21_evaluationAD.pdf'
+                  videolink: 'http://simingchen.me/docs/vis21_evaluationAD.mp4'
+                  pdfinfo: pdf (15.4MB)
+                  videoinfo: mp4 (58.6MB)
+                  project: autonomous_driving
+
+            pub12:
+                  pic: /publications/interactiveExtended.png
+                  head: 'Interactive Extended Reality Techniques in Information Visualization.'
+                  author: Richen Liu, Min Gao, Lijun Wang, Xiaohan Wang, Yuzhe Xiang, <b>Aolin Zhang</b>, Jiazhi Xia, Yi Chen, <b>Siming Chen*</b>.
+                  journal: <em>IEEE Transactions on Human-Machine Systems</em>, Accepted, 2022.
+                  pdflink: /publications/Interactive_Extended_Reality_Techniques_in_Information_Visualization.pdf
+                  pdfinfo: pdf (3.5MB)
+                  project: digital_twins
+
+
+            pub11:
+                  pic: /publications/superresolution.png
+                  head: 'Rethinking Super-Resolution as Text-Guided Details Generation.'
+                  author: Chenxi Ma, Bo Yan, Qing Lin, Weimin Tan, <b>Siming Chen</b>.
+                  journal: <em>ACM Multimedia 2022 (ACM MM'22)</em>, Accepted, 2022.
+                  pdflink: 'http://simingchen.me/docs/mm22-sr.pdf'
+                  pdfinfo: pdf (4.0MB)
+                  project: explainable_ai
+
+            pub9:
+                  pic: /publications/onelabeler.png
+                  head: 'OneLabeler: A Flexible System for Building Data Labeling Tools.'
+                  author: <b><b>Yu Zhang</b></b>, <b>Yun Wang</b>, Haidong Zhang, Bin Zhu, <b>Siming Chen</b>, Dongmei Zhang.
+                  journal: "<em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'22)</em>, 93: 1-22, 2022."
+                  pdflink: 'http://simingchen.me/docs/chi22_onelabeler.pdf'
+                  videolink: 'http://simingchen.me/docs/chi22_onelabeler.mp4'
+                  pdfinfo: pdf (8.4MB)
+                  videoinfo: mp4 (21.2MB)
+                  codelink: 'https://github.com/microsoft/OneLabeler'
+                  codeinfo: OneLabeler
+                  project: interactive_ai
+
+            pub8:
+                  pic: /publications/historical.png
+                  head: 'Visual Reasoning for Uncertainty in Spatio-temporal Events of Historical Figures.'
+                  author: Wei Zhang, Siwei Tan, <b>Siming Chen*</b>, Linhao Meng, Tianye Zhang, Rongchen Zhu, Wei Chen*.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2022."
+                  pdflink: 'http://simingchen.me/docs/tvcg22-uncertainty.pdf'
+                  pdfinfo: pdf (11.5MB)
+                  project: digital_humanities
+
+            pub7:
+                  pic: /publications/sd2.png
+                  head: 'SD2: Slicing and Dicing Scholarly Data for Interactive Evaluation of Academic Performance.'
+                  author: Zhichun Guo, Jun Tao, <b>Siming Chen</b>, Nitesh V. Chawla, Chaoli Wang.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2022."
+                  pdflink: 'http://simingchen.me/docs/tvcg22-sd2.pdf'
+                  pdfinfo: pdf (8.4MB)
+                  project: digital_humanities
+
+            pub6:
+                  pic: /news/341.png
+                  head: 'Metaverse: Perspectives from graphics, interactions and visualization.'
+                  author: <b>Yuheng Zhao</b>, <b>Jinjing Jiang</b>, Yi Chen, Richen Liu, Yalong Yang, Xiangyang Xue, <b>Siming Chen*</b>.
+                  journal: "<em>Visual Informatics</em>, 6(1):56-67, 2022."
+                  pdflink: 'http://simingchen.me/docs/vi_metaverse22.pdf'
+                  pdfinfo: pdf (2.0MB)
+                  project: digital_twins
+
+
+            pub13:
+                  pic: /awards/awd4.png
+                  head: 'IEEE VAST Challenge 2021 Winner: Visual Analytics for Spatial-temporal Situation Awareness.'
+                  author: <b>Siqi Shen</b>, <b>Xingui Lai</b>, <b>Siming Chen*</b>, Qinghong Wang , Junting Gao.
+                  journal: "<em>IEEE Computer Graphics and Applications (CG&A)</em>, Accepted, 2022."
+                  project: urban_analysis
+
+
+            pub14:
+                  pic: /publications/policy.png
+                  head: "What is policy content and how is the public's policy support? A policy cognition study based on natural language processing and social psychology."
+                  author: Lingyi Zhou, Dingzhang Dai, Junxia Ren, Xiaoxu Chen, <b>Siming Chen*</b>.
+                  journal: "<em>Frontiers in Psychology</em>, 13:1-16, 2022."
+                  pdflink: 'http://simingchen.me/docs/frontier22_lingyi.pdf'
+                  pdfinfo: pdf (0.6MB)
+                  project: digital_humanities
+
+            pub5:
+                  pic: /publications/seekingPatterns.png
+                  head: 'Seeking patterns of visual pattern discovery for knowledge building.'
+                  author: Natalia Andrienko, Gennady Andrienko, <b>Siming Chen</b>, and Brian Fisher.
+                  journal: "<em>Computer Graphics Forum</em>, 2022, Accepted."
+                  pdflink: 'http://simingchen.me/docs/cgf22-seeking_patterns.pdf'
+                  pdfinfo: pdf (30.1MB)
+                  project: interactive_ai
+
+
+            pub4:
+                  pic: /publications/danmuvis.png
+                  head: 'DanmuVis: Visualizing Danmu Content Dynamics and Associated Viewer Behaviors in Online Videos.'
+                  author: Shuai Chen, Sihang Li, Yanda Li, Junlin Zhu, Juanjuan Long, <b>Siming Chen</b>, Jiawan Zhang and Xiaoru Yuan.
+                  journal: "<em>Computer Graphics Forum (EuroVis'22)</em>, 2022, Accepted."
+                  pdflink: 'http://simingchen.me/docs/cgf22_danmu.pdf'
+                  pdfinfo: pdf (6.0MB)
+                  project: social_media
+
+
+            pub15:
+                  pic: /publications/hybrid.png
+                  head: 'A hybrid prediction and search approach for flexible and efficient exploration of big data.'
+                  author: Jie Li, Yongjian Sun, Zhenhuan Lei, <b>Siming Chen</b>, Gennady Andrienko, Natalia Andrienko, Wei Chen.
+                  journal: "<em>Journal of Visualization</em>, 2022, Accepted."
+                  pdflink: 'http://simingchen.me/docs/jov22_prediction.pdf'
+                  pdfinfo: pdf (2.8MB)
+                  project: interactive_ai
+
+            
+            pub3:
+                  pic: /publications/dataVideos.png
+                  head: 'Investigating the Role and Interplay of Narrations and Animations in Data Videos.'
+                  author: Hao Cheng, <b>Junhong Wang</b>, <b>Yun Wang</b>, Bongshin Lee, Haidong Zhang, Dongmei Zhang.
+                  journal: "<em>Computer Graphics Forum</em>, 41: 527-539."
+                  pdflink: 'https://www.microsoft.com/en-us/research/uploads/prod/2022/05/NarrationsAnimationsInDataVideos-EuroVis2022.pdf'
+                  pdfinfo: pdf (2.2MB)
+                  project: storytelling
+
+
+            pub2:
+                  pic: /publications/sciencechina21.png
+                  head: 'A benchmark for visual analysis of insider threat detection.'
+                  author: Ying Zhao, Kui Yang, <b>Siming Chen*</b>, Zhuo Zhang, Xin Huang, Qiusheng Li, Qi Ma, Xinyue Luan, Xiaoping Fan.
+                  journal: "<em>SCIENCE CHINA Information Sciences</em>, 65(9): 199102, 2022."
+                  pdflink: 'http://simingchen.me/docs/sciencechina21_benchmark.pdf'
+                  benchmarklink: 'http://chinavis.org/2019/english/challenge_en.html'
+                  pdfinfo: pdf (1.8MB)
+                  benchmarkinfo: ChinaVis Data Challenge 2019
+                  project: security_analysis
+                  
+
+pub_2021:
+      head: '2021'
+      pub:
+            pub1: 
+                  pic: /publications/co-bridge.png
+                  head: 'Co-Bridges: Pair-wise Visual Connection and Comparison for Multi-item Data Streams.'
+                  author: <b>Siming Chen</b>, Natalia Andrienko, Gennady Andrienko, Jie Li, Xiaoru Yuan.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VAST'20)</em>, 27(2): 1612-1622, 2021."
+                  pdflink: 'http://simingchen.me/docs/vis20_cobridges.pdf'
+                  videolink: 'http://simingchen.me/docs/vis20_cobridges.mp4'
+                  pdfinfo: pdf (3.9MB)
+                  videoinfo: mp4 (26.9MB)
+                  project: social_media
+
+            pub2: 
+                  pic: /publications/reliability21.png
+                  head: 'An Indoor Crowd Movement Trajectory Benchmark Dataset.'
+                  author: Ying Zhao, Xin Zhao, <b>Siming Chen*</b>, Zhuo Zhang, Xin Huang.
+                  journal: "<em>IEEE Transactions on Reliability</em>, Accepted, 2021."
+                  pdflink: 'http://simingchen.me/docs/reliability21_dataset.pdf'
+                  datasetlink: 'https://github.com/csuvis/IndoorTrajectoryData/'
+                  pdfinfo: pdf (2.6MB)
+                  datasetinfo: New Public-available Benchmark Data
+                  project: security_analysis
+
+            pub3: 
+                  pic: /publications/shahid.png
+                  head: 'A Deeper Understanding of Visualization–Text Interplay in Geographic Data-driven Stories.'
+                  author: Shahid Latif, <b>Siming Chen</b>, Fabian Beck.
+                  journal: "<em>Computer Graphics Forum (EuroVis'21)</em>, 40(3): 311-322, 2021."
+                  pdflink: 'http://simingchen.me/docs/eurovis21_shahid.pdf'
+                  pdfinfo: pdf (1.2MB)
+                  project: storytelling
+
+            pub4:
+                  pic: /publications/jie.png
+                  head: 'Exploring Multi-dimensional Data via Subset Embedding.'
+                  author: Peng Xie, Wenyuan Tao, Jie Li, Wentao Huang, <b>Siming Chen</b>.
+                  journal: "<em>Computer Graphics Forum (EuroVis'21)</em>, 40(3): 75-86, 2021."
+                  pdflink: 'http://simingchen.me/docs/eurovis21_jie.pdf'
+                  pdfinfo: pdf (5.7MB)
+                  project: interactive_ai
+
+
+            pub5: 
+                  pic: /publications/中文.png
+                  head: '可视化与人工智能交叉研究综述'
+                  author: 夏佳志, 李杰, <b>陈思明</b>, 秦红星, 刘世霞.
+                  journal: "<em>中国科学: 信息科学</em>, 2021."
+                  pdflink: /publications/VISandAI.pdf
+                  pdfinfo: pdf (3.51MB)
+                  project: interactive_ai
+
+
+pub_before_2021:
+      head: Selected Publications before 2021
+      pub: 
+            pub15: 
+                  pic: /publications/rmap.png
+                  head: 'R-Map: A Map Metaphor for Visualizing Information Reposting Process in Social Media.'
+                  author: Shuai Chen, Sihang Li, <b>Siming Chen</b>, Xiaoru Yuan.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VAST'19)</em>, 26(1): 1204-1214, 2020."
+                  pdflink: 'http://simingchen.me/docs/vis19_rmap.pdf'
+                  videolink: 'http://simingchen.me/docs/vis19_rmap.mp4'
+                  slideslink: 'http://simingchen.me/docs/vis19_rmap.pptx'
+                  pdfinfo: pdf (2.1MB)
+                  videoinfo: mp4 (35.7MB)
+                  slidesinfo: pptx (53.3MB)
+                  project: social_media
+
+            pub14: 
+                  pic: /publications/vasabi.png
+                  head: 'VASABI: Hierarchical User Profiles for Interactive Visual User Behaviour Analytics.'
+                  author: Phong H. Nguyen, Rafael Henkin, <b>Siming Chen</b>, Natalia Andrienko, Gennady Andrienko, Olivier Thonnard, Cagatay Turkay.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VAST'19)</em>, 26(1): 77-86, 2020."
+                  pdflink: 'http://simingchen.me/docs/vis19_vasabi.pdf'
+                  videolink: 'http://simingchen.me/docs/vis19_vasabi.mp4'
+                  pdfinfo: pdf (1.5MB)
+                  videoinfo: mp4 (39.3MB)
+                  project: security_analysis
+
+
+            pub11: 
+                  pic: /publications/lda.png
+                  head: LDA Ensembles for Interactive Exploration and Categorization of Behaviors.
+                  author: <b>Siming Chen</b>, Natalia Andrienko, Gennady Andrienko, Linara Adilova, Jeremie Barlet, Joerg Kindermann, Phong.H Nguyen, Olivier Thonnard, Cagatay Turkay.
+                  journal: '<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 26(9): 2775 - 2792, 2020.'
+                  pdflink: 'http://simingchen.me/docs/tvcg19_lda.pdf'
+                  videolink: 'http://simingchen.me/docs/tvcg19_lda.mp4'
+                  slideslink: 'http://simingchen.me/docs/vis19_disiem.pptx'
+                  pdfinfo: pdf (20.1MB)
+                  videoinfo: mp4 (6.3MB)
+                  slidesinfo: pptx (10MB)
+                  project: security_analysis
+
+
+            pub10: 
+                  pic: /publications/story.png
+                  head: 'Supporting Story Synthesis: Bridging the Gap between Visual Analytics and Storytelling.'
+                  author: <b>Siming Chen</b>, Jie Li, Gennady Andridenko, Natalia Andrienko, Yun Wang, Phong.H Nguyen, Cagatay Turkay.
+                  journal: '<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 26(7): 2499 - 2516, 2020.'
+                  pdflink: 'http://simingchen.me/docs/tvcg19_gap.pdf'
+                  videolink: 'http://simingchen.me/docs/tvcg19_gap.mp4'
+                  slideslink: 'http://simingchen.me/docs/vis19_gap.pptx'
+                  pdfinfo: pdf (10.1MB)
+                  videoinfo: mp4 (86.3MB)
+                  slidesinfo: pptx (50MB)
+                  project: storytelling
+
+
+            pub13: 
+                  pic: /publications/sspc.png
+                  head: 'Semantics-Space-Time Cube: A Conceptual Framework for Systematic Analysis of Texts in Space and Time.'
+                  author: Jie Li, <b>Siming Chen</b>, Wei Chen, Gennady Andrienko, Natalia Andrienko.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 26(4):1789 - 1806, 2020."
+                  pdflink: 'http://simingchen.me/docs/tvcg19_Cube.pdf'
+                  videolink: 'http://simingchen.me/docs/tvcg19_Cube.mp4'
+                  pdfinfo: pdf (4.8M)
+                  videoinfo: mp4 (9.9M)
+                  project: urban_analysis
+
+
+            pub9: 
+                  pic: /publications/context.png
+                  head: Contextualized Analysis of Movement Events.
+                  author: <b>Siming Chen</b>, Gennady Andrienko, Natalia Andrienko, Christos Doulkeridis, Athanasios Koumparos.
+                  journal: <em>in Proceedings of EuroVA'19 (Best Paper Award)</em>, Pages 49-53, Porto, Portugal, Jun.3-7, 2019.
+                  pdflink: 'http://simingchen.me/docs/eurova19_context.pdf'
+                  slideslink: 'http://simingchen.me/docs/EuroVA2019_Chen.pptx'
+                  pdfinfo: pdf (4.9M)
+                  slidesinfo: pptx (12M)
+                  project: urban_analysis
+
+            pub12: 
+                  pic: /publications/cope.png
+                  head: 'COPE: Interactive Exploration of Co-occurrence Patterns in Spatial Time Series.'
+                  author: Jie Li, <b>Siming Chen</b>, Kang Zhang, Gennady Andrienko, Natalia Andrienko.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 25(8): 2554-2567, 2019."
+                  pdflink: 'http://simingchen.me/docs/TVCG18_COPE.pdf'
+                  videolink: 'http://simingchen.me/docs/tvcg18_COPE.mp4'
+                  pdfinfo: pdf (3.8M)
+                  videoinfo: mp4 (16.8M)
+                  project: urban_analysis
+
+            pub8: 
+                  pic: /publications/dmap+.png
+                  head: 'D-Map+: Interactive Visual Analysis and Exploration of Ego-centric and Event-centric Information Diffusion Patterns in Social Media.'
+                  author: <b>Siming Chen</b>, Shuai Chen, Zhenhuang Wang, Jie Liang, Yadong Wu, Xiaoru Yuan.
+                  journal: '<em>ACM Transactions on Intelligent Systems and Technology (TIST)</em>, 10(1): 11:1 - 11:26, 2018.'
+                  pdflink: 'http://simingchen.me/docs/tist2018-dmap+.pdf'
+                  pdfinfo: pdf (1.3M)
+                  project: social_media
+
+            pub7: 
+                  pic: /publications/behavior.png
+                  head: 'User Behavior Map: Visual Exploration for Cyber Security Session Data.'
+                  author: <b>Siming Chen</b>, Shuai Chen, Natalia Andrienko, Gennady Andrienko, Phong H. Nguyen, Cagatay Turkay, Olivier Thonnard, Xiaoru Yuan
+                  journal: <em>in Proceedings of 2018 IEEE Symposium on Visualization for Cyber Security (VizSec'18)</em>, Pages 1-4, Berlin, Germany, Oct.22, 2018.
+                  pdflink: 'http://simingchen.me/docs/vizsec18_behaviormap.pdf'
+                  slideslink: 'http://simingchen.me/docs/vizsec18_behaviormap.ppt'
+                  pdfinfo: pdf (5.7M)
+                  slidesinfo: pdf (17.2M)
+                  project: security_analysis
+
+            pub6: 
+                  pic: /publications/uncertainty.png
+                  head: Uncertainty-aware Visual Analytics for Exploring Human Behaviors from Heterogeneous Spatial Temporal Data.
+                  author: <b>Siming Chen</b>, Zuchao Wang, Jie Liang, Xiaoru Yuan.
+                  journal: "<em>Journal of Visual Languages and Computing (ChinaVis'16, Honorable mention for Best Paper Award)</em>, 48: 187-198, 2018."
+                  pdflink: 'http://simingchen.me/docs/jvlc18_chinavis16_uncertainty.pdf'
+                  slideslink: 'http://simingchen.me/docs/jvlc18_chinavis16_uncertainty_slides.pdf'
+                  pdfinfo: pdf (4.1M)
+                  slidesinfo: pdf (4.1M)
+                  project: urban_analysis
+
+            pub5: 
+                  pic: /publications/emap.png
+                  head: 'E-Map: A Visual Analytics Approach for Exploring Significant Event Evolutions in Social Media.'
+                  author: <b>Siming Chen</b>, Shuai Chen, Lijing Lin, Xiaoru Yuan, Jie Liang, Xiaolong (Luke) Zhang.
+                  journal: <em>in Proceedings of IEEE Symposium on Visual Analytics Science and Technology (VAST'17)</em>, Pages 36 - 47, Phoenix, USA, Oct.1-6, 2017.
+                  pdflink: 'http://simingchen.me/docs/vast17_emap.pdf'
+                  videolink: 'http://simingchen.me/docs/vast17_emap.mp4'
+                  slideslink: 'http://simingchen.me/docs/vast17_emap.pptx'
+                  pdfinfo: pdf (10.2MB)
+                  videoinfo: mp4 (23.4MB)
+                  slidesinfo: pptx (38MB)
+                  project: social_media
+
+            pub4: 
+                  pic: /publications/star.png
+                  head: Social Media Visual Analytics.
+                  author: <b>Siming Chen</b>, Lijing Lin, Xiaoru Yuan.
+                  journal: "<em>Computer Graphics Forum (EuroVis State-of-the-Art Report'17)</em>, 36(3): 563-587, 2017."
+                  pdflink: 'http://simingchen.me/docs/eurovis_star17.pdf'
+                  slideslink: 'http://simingchen.me/docs/eurovis_star17_slides.pptx'
+                  pdfinfo: pdf (24.6M)
+                  slidesinfo: pptx (80.1M)
+                  project: social_media
+
+            pub3: 
+                  pic: /publications/dmap.png
+                  head: 'D-Map: Visual Analysis of Ego-centric Information Diffusion Patterns in Social Media.'
+                  author: <b>Siming Chen</b>, Shuai Chen, Zhenhuang Wang, Jie Liang, Xiaoru Yuan, Nan Cao, Yadong Wu.
+                  journal: <em>in Proceedings of IEEE Symposium on Visual Analytics Science and Technology (VAST'16)</em>, pages 41-50, Baltimore, USA, Oct. 23-28, 2016.
+                  pdflink: 'http://simingchen.me/docs/vast16-dmap.pdf'
+                  videolink: 'http://vis.pku.edu.cn/research/publication/vast16_dmap.mp4'
+                  slideslink: 'http://simingchen.me/docs/vast16-dmap.pptx'
+                  pdfinfo: pdf (18MB)
+                  videoinfo: mp4 (16MB)
+                  slidesinfo: pptx (54.6MB)
+                  project: social_media
+
+            pub2: 
+                  pic: /publications/interactive.png
+                  head: Interactive Visual Discovering of Movement Patterns from Sparsely Sampled Geo-tagged Social Media Data.
+                  author: <b>Siming Chen</b>, Xiaoru Yuan, Zhenhuang Wang, Cong Guo, Jie Liang, Zuchao Wang, Xiaolong (Luke) Zhang and Jiawan Zhang.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (VAST'15)</em>, 22(1): 270-279,2016."
+                  pdflink: 'http://simingchen.me/docs/vast15_WeiboGeo.pdf'
+                  videolink: 'http://simingchen.me/docs/vast15_video.mp4'
+                  slideslink: 'http://simingchen.me/docs/vast15_WeiboGeo.pptx'
+                  pdfinfo: pdf (12.2MB)
+                  videoinfo: mp4 (37.8MB)
+                  slidesinfo: pptx (57.4MB)
+                  project: social_media
+
+            pub1: 
+                  pic: /publications/oceans.png
+                  head: 'OCEANS: online collaborative explorative analysis on network security.'
+                  author: <b>Siming Chen</b>, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer and Thomas Ertl.
+                  journal: <em>in Proceedings of the Eleventh Workshop on Visualization for Cyber Security (VizSec'14)</em>, Pages 1-8, Paris, France, Nov.10, 2014.
+                  pdflink: 'http://simingchen.me/docs/vizsec14-oceans-small.pdf'
+                  videolink: 'http://simingchen.me/docs/vizsec14-oceans.wmv'
+                  slideslink: 'http://simingchen.me/docs/oceans_vizsec_1031.pptx'
+                  pdfinfo: pdf (1.8MB)
+                  videoinfo: wmv (11.7MB)
+                  slidesinfo: pptx (23.4MB)
+                  project: security_analysis
+

@@ -1,0 +1,45 @@
+# avatar默认相对路径：/micall/source
+林子玥:
+      avatar: '/members/林子玥.jpg'
+      type: 博士研究生
+      descr: '多智能体数字孪生与可视分析'  
+
+赵宇恒: 
+      avatar: '/members/赵宇恒.jpg'
+      type: 博士研究生
+      descr: '大模型驱动的智能可视分析'
+
+邵则开:
+       avatar: "/members/邵则开.jpg"
+       type: 博士研究生
+       descr: "AI+VIS"
+
+冯捷琳:
+      avatar: '/members/冯捷琳.jpg'
+      type: 博士研究生
+      descr: "智能生成式可视化"
+
+郑伟莉:
+      avatar: '/members/郑伟莉.jpg'
+      type: 博士研究生
+      descr: '数字人文'
+
+单弋:
+  avatar: "/members/单弋.jpg"
+  type: 博士研究生
+  descr: "可视化构建"
+
+陈玄: 
+      link: 'https://chenxuan.space/'
+      avatar: '/members/陈玄.jpg'
+      type: 博士研究生
+      descr: '区块链可视分析' 
+
+姚闰翔: 
+      avatar: '/members/姚闰翔.jpg'
+      type: 博士研究生
+      descr: "类脑计算数字孪生、沉浸式可视化"
+
+杨一航:
+      avatar: '/members/杨一航.jpg'
+      type: 博士研究生

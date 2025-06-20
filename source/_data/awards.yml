@@ -1,0 +1,96 @@
+# 相对路径：/micall/source
+award_2023:
+      head: '2023'
+      awd:
+            awd13: 
+                  pic: /news/961.jpg
+                  head: '2023年度复旦大学十佳“三好”研究生导学团队 - 提名奖'
+                  author: <b>FDU-VIS全体成员</b>.
+
+            awd12: 
+                  pic: /news/981.jpg
+                  head: '上海图书馆第八届开放数据竞赛 - 优胜奖'
+                  author: <b>郑伟莉</b>，<b>陈玄</b>，<b>梅书鸿</b>，<b>蓝钰萱</b>.
+
+            awd11: 
+                  pic: /news/991.jpg
+                  head: '2023年“金桥杯”移动通信创新应用专题赛 - 金奖'
+                  author: <b>姚闰翔</b>.
+
+            awd10: 
+                  pic: /news/992.jpg
+                  head: '2023年“金桥杯”移动通信创新应用专题赛 - 银奖'
+                  author: <b>陈玄</b>.
+
+            awd16: 
+                  pic: /publications/blk.png
+                  head: '2023年中国互联网+创新创业大赛 - 银奖'
+                  author: <b>赵宇恒</b>.
+
+            awd15: 
+                  pic: /publications/blk.png
+                  head: '2022-2023年第十八届“花旗杯”金融创新应用大赛 - 二等奖'
+                  author: <b>刘佳怡</b>.
+
+            awd14: 
+                  pic: /publications/blk.png
+                  head: '华为软件精英挑战赛 - 银奖'
+                  author: <b>张熠星</b>.
+
+award_2022:
+      head: '2022'
+      awd:
+            awd9: 
+                  pic: /news/441.jpg
+                  head: 'IEEE VAST Challenge 2022 - Award for Outstanding Challenge 1 Submission'
+                  author: <b>Yuxiao Li</b>, <b>Xuexi Wang</b>, <b>Yue Wang</b>, <b>Ting Liu</b>, <b>Huiting Wang</b>, <b>Ziyue Lin</b>, <b>Siming Chen</b>.
+
+            awd8: 
+                  pic: /news/442.png
+                  head: 'IEEE VAST Challenge 2022 - Award for Strong Support for Visualization-Derived Insight'
+                  author: <b>Ting Liu</b>, <b>Huiting Wang</b>, <b>Ziyue Lin</b>, <b>Yuxiao Li</b>, <b>Xuexi Wang</b>, <b>Yue Wang</b>, <b>Siming Chen</b>.
+
+            awd7: 
+                  pic: /news/311.jfif
+                  head: 'IEEE PacificVis 2022 - Visual Data Storytelling Contest Honorable Mention'
+                  author: Shiman Zhang, Haotian Wu, YuXuan Li, Yancheng Cao, Yang Shi, <b>Siming Chen</b>, Nan Cao.
+
+            awd6:
+                  pic: /awards/awd6.jpg
+                  head: 'ChinaVis 2022 数据可视化竞赛 赛道1：数据安全可视分析 - 提名作品'
+                  author: <b>赵心怡</b>, <b>刘思源</b>, <b>陈思明（指导老师）</b>.
+
+            awd5:
+                  pic: /awards/awd5.jpg
+                  head: 'ChinaVis 2022 数据可视化竞赛 赛道2：三维数字孪生可视化场景设计与构建 - 提名作品'
+                  author: <b>沈思琦</b>, <b>林子玥</b>, <b>江金菁</b>, <b>王雪西</b>, <b>陈思明（指导老师）</b>.
+
+award_2021:
+      head: '2021'
+      awd:
+            awd4: 
+                  pic: /awards/awd4.png
+                  head: 'IEEE VAST Challenge 2021 - Award for Outstanding Comprehensive MC2 Submission'
+                  author: Junting Gao, <b>Siqi Shen</b>, <b>Xingui Lai</b>, QingHong Wang, <b>Jiaqi Dong</b>, <b>Ziyue Lin</b>, <b>Lei Peng</b>, <b>Yijie Hou</b>, <b>Yuheng Zhao</b>, <b>Siming Chen</b>.
+
+
+            awd3: 
+                  pic: /awards/awd3.png
+                  head: 'IEEE VAST Challenge 2021 - Award for Strong Human-in-the-Loop Analysis Methodology'
+                  author: <b>Lei Peng</b>, <b>Yuheng Zhao</b>, <b>Yijie Hou</b>, Qinghong Wang, <b>Siqi Shen</b>, <b>Xingui Lai</b>, Junting Gao, <b>Jiaqi Dong</b>, <b>Ziyue Lin</b>, <b>Siming Chen</b>.
+
+
+            awd2: 
+                  pic: /awards/awd2.jpg
+                  head: 'IEEE PacificVis 2021 - Visual Data Storytelling Contest Winner'
+                  author: <b>Yixuan Li</b>, Tian Gao, Yang Shi, Nan Cao, <b>Siming Chen</b>
+                  videolink: 'https://www.bilibili.com/video/BV1Fy4y137KP?from=search&seid=450855632496367410'
+                  videoinfo: online
+
+
+            awd1: 
+                  pic: /awards/awd1.png
+                  head: 中国开源年会（COSCon 2020）以太坊区块链黑客松 - 最佳可视化奖
+                  author: <b>董佳奇</b>, <b>王非凡</b>, <b>赖新贵</b>.
+
+

@@ -1,0 +1,366 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<style type="text/css">
+    .category {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .our-team {
+        padding: 30px 0 40px;
+        background: #ffffffeb;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        height: 310px;
+    }
+
+    .our-team.smaller {
+        height: 240px;
+    }
+
+    .our-team .pic {
+        display: inline-block;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 0px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .our-team .pic.smaller {
+        width: 100px;
+        height: 100px;
+    }
+
+    .our-team .pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .our-team:hover .pic img {
+        transform: scale(1.3);
+    }
+
+    .our-team .team-content {
+        margin-bottom: 30px;
+    }
+
+    .our-team .title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #4e5052;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+
+    .our-team .title.smaller {
+        font-size: 20px;
+    }
+
+    .our-team .post {
+        display: block;
+        font-size: 15px;
+        color: #4e5052;
+        padding: 0 5px 0 5px;
+    }
+
+    .our-team .post.smaller {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .our-team .social {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: #4e5052;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .our-team:hover .social {
+        bottom: 0;
+    }
+
+    .our-team .social li {
+        display: inline-block;
+    }
+
+    .our-team .social li a {
+        display: block;
+        padding: 10px;
+        font-size: 17px;
+        color: #fff;
+        transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:hover {
+        color: #110;
+        background: #f7f5ec;
+    }
+
+    .box {
+        padding-top: 10px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        display: flex;
+        border: 0px;
+    }
+
+    .picd {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 20%;
+        display: inline;
+    }
+
+    .picd img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .desc_director {
+        width: 70%;
+        display: inline;
+        margin-left: 5%;
+        color: #4e5052;
+        font-size: 1rem;
+    }
+
+    .background {
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 990px) {
+        .our-team {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media screen and (max-width: 736px) {
+        #boxd {
+            display: block;
+            padding: 2% 5%;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+
+
+                        <div class="category">指导老师</div>
+                        <div class="row">
+                            <% if (site.data.director) { %>
+                                <% for (var i in site.data.director) { %>
+                                    <div class="background">
+                                        <div class='box'>
+                                            <div class='picd'>
+                                                <img src='<%= site.data.director[i].avatar %>'>
+                                            </div>
+                                            <div class='desc_director'>
+                                                <b>
+                                                    <%= i %>
+                                                </b>，
+                                                <%- site.data.director[i].descr %><br>
+                                                    <br>
+                                                    <b>主要研究方向：</b>
+                                                    <%- site.data.director[i].research %><br>
+                                                        <br>
+                                                        <b>个人主页：</b>
+                                                        <a href="<%- site.data.director[i].link %>">
+                                                            <%- site.data.director[i].link %>
+                                                        </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+                        </div>
+
+                        <div class="category">研究助理/博士研究生</div>
+                        <div class="row">
+                            <% if (site.data.assistants_phds) { %>
+                                <% for (var i in site.data.assistants_phds) { %>
+                                    <div class="col-md-3 col-sm-6" style="margin-top: 30px">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="<%= site.data.assistants_phds[i].avatar %>">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3 class="title">
+                                                    <%= i %>
+                                                </h3>
+                                                <% if (site.data.assistants_phds[i].type !=null) { %>
+                                                    <Span class="post">
+                                                        <%= site.data.assistants_phds[i].type %>
+                                                    </Span>
+                                                    <%}%>
+                                                        <% if (site.data.assistants_phds[i].descr !=null) { %>
+                                                            <Span class="post">研究方向：<%=
+                                                                    site.data.assistants_phds[i].descr %></Span>
+                                                            <%}%>
+                                            </div>
+                                            <ul class="social">
+                                                <% if (site.data.assistants_phds[i].link !=null) { %>
+                                                    <li>
+                                                        <a href="<%= site.data.assistants_phds[i].link%>"
+                                                            class="fa fa-link"></a>
+                                                    </li>
+                                                    <%}%>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+                        </div>
+
+
+
+                        <div class="category">硕士研究生</div>
+                        <div class="row">
+                            <% if (site.data.masters) { %>
+                                <% for (var i in site.data.masters) { %>
+                                    <div class="col-md-3 col-sm-6" style="margin-top: 30px">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="<%= site.data.masters[i].avatar %>">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3 class="title">
+                                                    <%= i %>
+                                                </h3>
+                                                <% if (site.data.masters[i].descr !=null) { %>
+                                                    <Span class="post">研究方向：<%= site.data.masters[i].descr %></Span>
+                                                    <%}%>
+                                            </div>
+                                            <ul class="social">
+                                                <% if (site.data.masters[i].link !=null) { %>
+                                                    <li>
+                                                        <a href="<%= site.data.masters[i].link%>"
+                                                            class="fa fa-link"></a>
+                                                    </li>
+                                                    <%}%>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+
+                                        
+                        </div>
+
+
+
+                        <div class="category">本科生</div>
+                        <div class="row">
+                            <% if (site.data.undergraduates) { %>
+                                <% for (var i in site.data.undergraduates) { %>
+                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                        <div class="our-team smaller">
+                                            <div class="pic smaller">
+                                                <img src="<%= site.data.undergraduates[i].avatar %>">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3 class="title smaller">
+                                                    <%= i %>
+                                                </h3>
+                                                <% if (site.data.undergraduates[i].descr !=null) { %>
+                                                    <Span class="post smaller">研究方向：<%= site.data.undergraduates[i].descr %>
+                                                            </Span>
+                                                    <%}%>
+                                            </div>
+                                            <ul class="social">
+                                                <% if (site.data.undergraduates[i].link !=null) { %>
+                                                    <li>
+                                                        <a href="<%= site.data.undergraduates[i].link%>"
+                                                            class="fa fa-link"></a>
+                                                    </li>
+                                                    <%}%>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+
+                        </div>
+
+                        <div class="category">访问学生</div>
+                        <div class="row">
+                            <% if (site.data.visiting) { %>
+                                <% for (var i in site.data.visiting) { %>
+                                    <div class="col-md-3 col-sm-6" style="margin-top: 30px">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="<%= site.data.visiting[i].avatar %>">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3 class="title">
+                                                    <%= i %>
+                                                </h3>
+                                                <Span class="post">
+                                                    <%= site.data.visiting[i].institution %>
+                                                </Span>
+                                                <Span class="post">
+                                                    <%= site.data.visiting[i].descr %>
+                                                </Span><br>
+                                            </div>
+                                            <ul class="social">
+                                                <% if (site.data.visiting[i].link !=null) { %>
+                                                    <li>
+                                                        <a href="<%= site.data.visiting[i].link%>"
+                                                            class="fa fa-link"></a>
+                                                    </li>
+                                                    <%}%>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+</body>

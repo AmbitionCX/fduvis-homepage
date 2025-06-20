@@ -1,0 +1,104 @@
+
+<!-- Layouts -->
+<% if(page.layout === 'tags') { %>
+    <!-- Tags Cloud -->
+    <%- partial('_widget/page-tagcloud') %>
+
+<% } else if(page.layout === 'members') { %>
+    <!-- Single Links Page -->
+    <%- partial('_widget/page-members') %>
+
+<% } else if(page.layout === 'timeline') { %>
+    <!-- Single Timeline Page -->
+    <%- partial('_widget/page-timeline') %>
+
+<% } else if(page.layout === 'publications') { %>
+    <!-- Single Publication Page -->
+    <%- partial('_widget/page-publications') %>
+
+<% } else if(page.layout === 'projects') { %>
+    <!-- Single Project Page -->
+    <%- partial('_widget/page-projects') %>
+
+<% } else if(page.layout === 'news') { %>
+    <!-- Single Project Page -->
+    <%- partial('_widget/page-news') %>
+
+<% }  else if(page.layout === 'graduates') { %>
+    <!-- Single Project Page -->
+    <%- partial('_widget/page-graduates') %>
+
+<% }  else if(page.layout === 'awards') { %>
+    <!-- Single Project Page -->
+    <%- partial('_widget/page-awards') %>
+
+<% }  else if(page.layout === 'explainable_ai') { %>
+    <%- partial('_widget/proj-explainable-ai') %>
+    
+<% }  else if(page.layout === 'interactive_ai') { %>
+    <%- partial('_widget/proj-interactive-ai') %>
+
+<% }  else if(page.layout === 'social_media') { %>
+    <%- partial('_widget/proj-social-media') %>
+
+<% }  else if(page.layout === 'autonomous_driving') { %>
+    <%- partial('_widget/proj-autonomous-driving') %>
+
+<% }  else if(page.layout === 'financial_technology') { %>
+    <%- partial('_widget/proj-financial-technology') %>
+    
+<% }  else if(page.layout === 'digital_humanities') { %>
+    <%- partial('_widget/proj-digital-humanities') %>
+    
+<% }  else if(page.layout === 'security_analysis') { %>
+    <%- partial('_widget/proj-security-analysis') %>
+    
+<% }  else if(page.layout === 'scientific_applications') { %>
+    <%- partial('_widget/proj-scientific-applications') %>
+
+    <% }  else if(page.layout === 'urban_analysis') { %>
+        <%- partial('_widget/proj-urban-analysis') %>
+
+        <% }  else if(page.layout === 'digital_twins') { %>
+            <%- partial('_widget/proj-digital-twins') %>
+
+            <% }  else if(page.layout === 'storytelling') { %>
+                <%- partial('_widget/proj-storytelling') %>
+
+<% } else { %>
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_<%= theme.prism %>.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo', {}, {cache: true}) %>
+        <!-- Nav 导航条 start -->
+        <%- partial('_partial/nav' , {}, {cache: true}) %>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(<%= page.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ><%= page.title %></h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <%-page.content%>
+            </div>
+
+            <!-- Post Comments -->
+            <%- partial('_partial/comment') %>
+
+        </div>
+        <!-- Copyright 版权 start -->
+        <%- partial('_partial/copyright', {}, {cache: true} ) %>
+    </div>
+</body>
+
+
+<% } %>

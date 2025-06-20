@@ -1,0 +1,253 @@
+# avatar默认相对路径：/micall/source
+graduated_2024:
+  head: "2024"
+  masters:
+    胡一航:
+      avatar: "/members/胡一航.jpg"
+      descr: "中国移动"
+
+    阚舒耀:
+      avatar: "/members/阚舒耀.jpg"
+
+    李韵:
+      avatar: "/members/李韵.jpg"
+      descr: "阿里巴巴"
+    
+    祁宇升:
+      avatar: "/members/祁宇升.jpg"
+      descr: "美团"
+
+    王慧婷:
+      avatar: "/members/王慧婷.jpg"
+      descr: "顺丰科技"
+
+  undergraduates:
+    陈春源:
+      avatar: "/members/陈春源.jpg"
+      descr: "南开大学"
+
+    费彦琳:
+      avatar: "/members/费彦琳.png"
+      descr: "卡内基梅隆大学"
+
+    金毓淇:
+      avatar: "/members/金毓淇.jpg"
+      descr: "复旦大学"
+
+    利茵:
+      avatar: "/members/利茵.jpg"
+      descr: "新加坡国立大学"
+
+    裘星宇:
+      avatar: "/members/裘星宇.jpg"
+      descr: "复旦大学"
+
+    向林冰:
+      avatar: "/members/向林冰.jpg"
+      descr: "香港科技大学"
+
+    郑惠元:
+      avatar: "/members/郑惠元.jpg"
+      descr: "复旦大学"
+
+  visitings:
+    蓝钰萱:
+      avatar: '/members/蓝钰萱.jpg'
+      descr: '中国电信科学集团'
+
+    
+
+graduated_2023:
+  head: "2023"
+  masters:
+    陈彦冰:
+      avatar: "/members/陈彦冰.jpg"
+      descr: "歌斐"
+
+    崔昭昀:
+      avatar: "/members/崔昭昀.jpg"
+      descr: "蔚来汽车"
+    
+    江金菁:
+      avatar: "/members/江金菁.jpg"
+      descr: "苏州大数据集团"
+
+    蓝晨:
+      avatar: "/members/蓝晨.jpg"
+      descr: "阿里巴巴集团"
+
+    李煜潇:
+      avatar: "/members/李煜潇.jpg"
+      descr: "Ohio State University "
+
+    柳婷:
+      avatar: "/members/柳婷.jpg"
+
+    王呈舜:
+      avatar: "/members/王呈舜.jpg"
+      descr: "Singapore University of Technology and Design"
+
+    王雪西:
+      avatar: "/members/王雪西.jpg"
+      descr: "北京大学计算与数字经济研究院"
+
+    王裕:
+      avatar: "/members/王裕.jpg"
+      descr: "快手"
+
+    王越:
+      avatar: "/members/王越.jpg"
+      descr: "米哈游"
+
+    张洋:
+      avatar: "/members/张洋.jpg"
+      descr: "华为"
+
+    周钊宇:
+      avatar: "/members/周钊宇.jpeg"
+      descr: "蚂蚁集团"
+
+  undergraduates:
+      刘继升:
+        avatar: "/members/刘继升.jpg"
+
+      龙胤儒:
+        avatar: "/members/龙胤儒.jpg"
+        descr: "途游游戏"
+
+      秦子述:
+        avatar: "/members/秦子述.jpg"
+
+      余柯润:
+        avatar: "/members/余柯润.jpg"
+        descr: "Columbia University"
+
+      赵沁宜:
+        avatar: "/members/赵沁宜.jpg"
+        descr: "University of Washington"
+
+      赵心怡:
+        avatar: "/members/赵心怡.jpg"
+        descr: "Columbia University"
+
+      张森河:
+        avatar: "/members/张森河.jpg"
+        descr: "The University of Sydney"
+
+      周福强:
+        avatar: "/members/周福强.jpg"
+        descr: "上海南洋万邦软件技术有限公司"
+
+graduated_2022:
+  head: "2022"
+  masters:
+    董佳奇:
+      avatar: "/members/董佳奇.jpg"
+      descr: "蚂蚁集团"
+
+    傅雅婷:
+      avatar: "/members/傅雅婷.jpg"
+      descr: "交通银行总行"
+
+    侯艺杰:
+      avatar: "/members/侯艺杰.jpeg"
+      descr: "Intel"
+
+    赖新贵:
+      avatar: "/members/赖新贵.jpeg"
+      descr: "蚂蚁集团"
+
+    沈思琦:
+      avatar: "/members/沈思琦.jpeg"
+      descr: "阿里云"
+
+    王非凡:
+      avatar: "/members/王非凡.jpeg"
+      descr: "蚂蚁集团"
+
+    王俊虹:
+      avatar: "/members/王俊虹.jpeg"
+      descr: "Shopee"
+
+  undergraduates:
+    丁雨可:
+      avatar: "/members/丁雨可.jpg"
+      descr: "New York University, USA"
+
+    李欣虹:
+      avatar: "/members/李欣虹.jpg"
+      descr: "交银金融科技有限公司"
+
+    李俨达:
+      avatar: "/members/李俨达.jpeg"
+      descr: "复旦大学"
+
+    罗子钦:
+      avatar: "/members/罗子钦.jpeg"
+      descr: "复旦大学"
+
+    王隽杰:
+      avatar: "/members/王隽杰.jpeg"
+      descr: ""
+
+    王湛:
+      avatar: "/members/王湛.jpeg"
+      descr: "香港科技大学（广州）"
+
+    向泉州:
+      avatar: "/members/向泉州.jpg"
+      descr: "复旦大学"
+
+    张傲霖:
+      avatar: "/members/张傲霖.jpeg"
+      descr: "香港大学"
+
+    张晋瑜:
+      avatar: "/members/张晋瑜.jpeg"
+      descr: "复旦大学"
+
+    张雨竹:
+      avatar: "/members/张雨竹.jpg"
+      descr: "清华大学（深圳）"
+
+    邹思远:
+      avatar: "/members/邹思远.jpg"
+      descr: "Ingenieur Polytechnicienne, École Polytechnique"
+
+  visitings:
+
+    Chelsea Maria John: 
+          avatar: '/members/chelsa.png'
+          descr: 'Jülich Research Centre'
+
+    方舟:
+      avatar: "/members/方舟.jpg"
+      descr: "哈佛大学"
+
+    高星: 
+          avatar: '/members/高星.jpg'
+          descr: '天津大学'
+
+    韩诗晨: 
+          avatar: '/members/韩诗晨.jpg'
+          descr: 'University of Cambridge'
+
+    谭思危: 
+          avatar: '/members/谭思危.jpg'
+          descr: '浙江大学'
+
+    张宇:
+      link: "https://zhangyu94.github.io/"
+      avatar: "/members/张宇.jpg"
+      descr: ""
+
+graduated_2021:
+  head: "2021"
+  undergraduates:
+    李翊瑄:
+      avatar: "/members/李翊瑄.jpg"
+      descr: "University of California, Santa Barbara"
+
+    王心宇:
+      avatar: "/members/王心宇.jpg"
+      descr: "Columbia University"

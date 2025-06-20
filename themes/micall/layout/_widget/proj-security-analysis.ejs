@@ -1,0 +1,247 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .background {
+        width: 100%;
+        max-width: 72rem;
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+    }
+
+    .introduction {
+        font-size: 1.0rem;
+        color: #4e5052;
+        padding: 2% 5%;
+    }
+
+    .chinese {
+        color: #4e5052;
+    }
+
+    .english {
+        margin-top: 20px;
+        color: #4e5052;
+    }
+
+    .record {
+        color: #4e5052;
+        list-style-position: outside;
+        list-style-type: none;
+        box-orient: horizontal;
+    }
+
+    .box {
+        padding-top: 15px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        display: flex;
+        border: 0px;
+    }
+
+    .pic {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 16rem;
+        display: inline
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #4e5052;
+    }
+
+    .pub {
+        color: #4e5052;
+        width: 70%;
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+
+    .record:hover {
+        background-color: #fff3e7;
+    }
+
+    @media screen and (max-width: 736px) {
+        .box {
+            display: block;
+            padding: 2% 5%;
+        }
+
+        .pub {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+                        <div class="category">
+                            安全分析<br>
+                        </div>
+                        <div class="background">
+                            <div class="introduction">
+                                <div class="chinese">
+                                    <b>项目简介：</b>安全分析是指对网络系统、数据等进行实时监控和分析，以发现和应对各种网络威胁和攻击的过程。通过可视化技术，安全人员可以将网络数据流量和安全事件转化为直观的图表和报告，有助于更好地识别网络威胁和攻击来源，以制定更加有效的安全策略和措施。FDU-VIS专注于对网络安全状态的可视分析，帮助安全人员更好地理解和分析网络数据流量和安全事件。例如，我们使用网络分析技术定位网络资产，并使用可视化方法监控其实时状态。我们还监控以太坊网络状态并对其上的安全风险进行评估。
+                                </div>
+                                <div class="english"><b>Project Introduction: </b> Security analysis refers to the process of real-time monitoring
+                                        and analysis of network systems and data to detect and respond to various
+                                        network threats and attacks. Through visualization technology, security
+                                        personnel can transform network data traffic and security events into intuitive
+                                        charts and reports, which help identify the sources of network threats and
+                                        attacks more effectively and develop more efficient security strategies and
+                                        measures. To help security personnel comprehend and analyze network data traffic
+                                        and security events, FDU-VIS focuses on visual analysis of network security
+                                        status. For instance, we locate network assets using network analysis technology
+                                        and utilize visualization techniques to track their real-time status. We also
+                                        monitor and report the Ethereum blockchain's health and assess its security
+                                        risks.</div>
+                            </div>
+                        </div>
+
+
+                        <div class="category">
+                            相关发表
+                            <br>
+                        </div>
+                        <div class="background">
+                            <% for (var i in site.data.publications) { %>
+                                <% for (var j in site.data.publications[i].pub) { %>
+                                    <% if (site.data.publications[i].pub[j].project=='security_analysis' ) { %>
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='<%= site.data.publications[i].pub[j].pic %>'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        <%= site.data.publications[i].pub[j].head %>
+                                                    </b><br>
+                                                    <%- site.data.publications[i].pub[j].author %><br>
+                                                        <%- site.data.publications[i].pub[j].journal %><br>
+
+                                                            <% if (site.data.publications[i].pub[j].pdflink !=null) { %>
+                                                                | Paper |
+                                                                <a
+                                                                    href="<%= site.data.publications[i].pub[j].pdflink %>">
+                                                                    <%= site.data.publications[i].pub[j].pdfinfo %>
+                                                                </a>
+                                                                <%}%>
+
+                                                                    <% if (site.data.publications[i].pub[j].videolink
+                                                                        !=null) { %>
+                                                                        | Video |
+                                                                        <a
+                                                                            href="<%= site.data.publications[i].pub[j].videolink %>">
+                                                                            <%= site.data.publications[i].pub[j].videoinfo
+                                                                                %>
+                                                                        </a>
+                                                                        <%}%>
+
+                                                                            <% if
+                                                                                (site.data.publications[i].pub[j].posterlink
+                                                                                !=null) { %>
+                                                                                | Poster |
+                                                                                <a
+                                                                                    href="<%= site.data.publications[i].pub[j].posterlink %>">
+                                                                                    <%= site.data.publications[i].pub[j].posterinfo
+                                                                                        %>
+                                                                                </a>
+                                                                                <%}%>
+
+                                                                                    <% if
+                                                                                        (site.data.publications[i].pub[j].slideslink
+                                                                                        !=null) { %>
+                                                                                        | Slides |
+                                                                                        <a
+                                                                                            href="<%= site.data.publications[i].pub[j].slideslink %>">
+                                                                                            <%= site.data.publications[i].pub[j].slidesinfo
+                                                                                                %>
+                                                                                        </a>
+                                                                                        <%}%>
+
+                                                                                            <% if
+                                                                                                (site.data.publications[i].pub[j].benchmarklink
+                                                                                                !=null) { %>
+                                                                                                | Benchmark |
+                                                                                                <a
+                                                                                                    href="<%= site.data.publications[i].pub[j].benchmarklink %>">
+                                                                                                    <%= site.data.publications[i].pub[j].benchmarkinfo
+                                                                                                        %>
+                                                                                                </a>
+                                                                                                <%}%>
+
+                                                                                                    <% if
+                                                                                                        (site.data.publications[i].pub[j].datasetlink
+                                                                                                        !=null) { %>
+                                                                                                        | Dataset |
+                                                                                                        <a
+                                                                                                            href="<%= site.data.publications[i].pub[j].datasetlink %>">
+                                                                                                            <%= site.data.publications[i].pub[j].datasetinfo
+                                                                                                                %>
+                                                                                                        </a>
+                                                                                                        <%}%>
+
+                                                                                                            <% if
+                                                                                                                (site.data.publications[i].pub[j].codelink
+                                                                                                                !=null)
+                                                                                                                { %>
+                                                                                                                | Code |
+                                                                                                                <a
+                                                                                                                    href="<%= site.data.publications[i].pub[j].codelink %>">
+                                                                                                                    <%= site.data.publications[i].pub[j].codeinfo
+                                                                                                                        %>
+                                                                                                                </a>
+                                                                                                                <%}%>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <%}%>
+
+                                            <%}%>
+                                                <%}%>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+</body>

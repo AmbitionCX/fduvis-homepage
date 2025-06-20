@@ -1,0 +1,80 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" type="text/css" href="/css/demo.css"> -->
+<link rel="stylesheet" type="text/css" href="/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<script src="/js/swiper-bundle.min.js"></script>
+</script>
+
+<style>
+    .my_bullet_active {
+        background: #ff7c25;
+        opacity: 1;
+    }
+</style>
+
+<body class="is-loading">
+    <div class="demo_recent">
+        <div class="container_recent">
+            <div class="category_recent">
+                Recent News
+            </div>
+            <%var count=1 %>
+                <% for (var y in site.data.news) { %>
+                    <%if (count <=3) {%>
+                        <% for (var i in site.data.news[y].news) { %>
+                            <%if (count <=3) {%>
+                                <div class="background_recent">
+                                    <div class='box' id='box_recent'>
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <% for (var j in site.data.news[y].news[i].pic) { %>
+                                                    <div class="swiper-slide">
+                                                        <img class='swiper_img' src='<%= site.data.news[y].news[i].pic[j] %>'>
+                                                    </div>
+                                                    <% } %>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+                                        <div class='desc_recent'>
+                                            <b>
+                                                <%= site.data.news[y].news[i].date %>, <%= site.data.news[y].head %>
+                                            </b> <br>
+                                            <%= site.data.news[y].news[i].desc %>
+                                        </div>
+                                        <!-- desc -->
+                                    </div>
+                                    <!-- box -->
+                                </div>
+                                <!-- background -->
+                                <%count +=1%>
+                                    <%}%>
+                                        <%}%>
+                                            <%}%>
+                                                <%}%>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- demo -->
+
+    </div>
+    <!-- wrapper -->
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                bulletActiveClass: 'my_bullet_active',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    </script>
+</body>

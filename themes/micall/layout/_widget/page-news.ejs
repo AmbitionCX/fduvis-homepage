@@ -1,0 +1,159 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+<link rel="stylesheet" type="text/css" href="/css/swiper-bundle.min.css">
+<script src="/js/swiper-bundle.min.js"></script>
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+    
+    .background {
+        width: 100%;
+        max-width: 72rem;
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+    }
+    
+    .box {
+        padding-top: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        border: 0px;
+        display: flex;
+    }
+    
+    .desc {
+        color: #4e5052;
+        width: 65%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .swiper-container {
+        border-radius: 8px;
+        height: 10rem;
+        width: 16rem;
+        --swiper-navigation-color: #FFFFFF;
+        --swiper-navigation-size: 25px;
+    }
+    
+    .swiper_img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .my-bullet-active {
+        background: #ff7c25;
+        opacity: 1;
+    }
+    
+    @media screen and (max-width: 736px) {
+        .box {
+            display: block;
+            align-content: center;
+            padding: 2% 5%;
+        }
+        .desc {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+
+<body class="is-loading">
+
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+                        <% for (var y in site.data.news) { %>
+                            <div class="category">
+                                <%= site.data.news[y].head %>
+                            </div>
+                            <% for (var i in site.data.news[y].news) { %>
+                                <div class="background">
+
+                                    <div class='box'>
+
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <% for (var j in site.data.news[y].news[i].pic) { %>
+                                                    <div class="swiper-slide">
+                                                        <img class='swiper_img' src='<%= site.data.news[y].news[i].pic[j] %>'>
+                                                    </div>
+                                                    <% } %>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+
+                                        <div class='desc'>
+                                            <b>
+                                                <%= site.data.news[y].news[i].date %>
+                                            </b> <br>
+                                            <%= site.data.news[y].news[i].desc %>
+                                        </div>
+                                        <!-- desc -->
+
+                                    </div>
+                                    <!-- box -->
+
+                                </div>
+                                <!-- background -->
+                                <%}%>
+                                    <%}%>
+                    </div>
+                    <!-- container -->
+                </div>
+                <!-- demo -->
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+    <!-- wrapper -->
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                bulletActiveClass: 'my-bullet-active',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    </script>
+</body>

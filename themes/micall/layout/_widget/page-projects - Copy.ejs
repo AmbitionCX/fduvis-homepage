@@ -1,0 +1,131 @@
+<!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    a {
+        color: #FFFFFF;
+    }
+
+    .digital_twins {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48%;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #ffffff4e;
+        color: #ffffff;
+        font-size: 2rem;
+        text-align:center;
+        margin:auto;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    .ai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48%;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #ffffff4e;
+        color: #ffffff;
+        font-size: 2rem;
+        text-align:center;
+    }
+
+    .application-driven {
+        margin: auto;
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    #row1 {
+        margin-bottom: 50px;
+    }
+
+    .apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        width: 30%;
+        height: 100px;
+        border-radius: 10px;
+        background-color: #ffffff4e;
+        text-align:center;
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <%- partial('_partial/headerlogo') %>
+            <!-- Nav 导航条 start -->
+            <%- partial('_partial/nav') %>
+
+                <div class="demo">
+                    <div class="container">
+                        <div class="category">AI + VIS</div>
+                        <div class="row">
+                            <div class="ai"><a href="/interactive_ai">交互式AI</a></div>
+                            <div class="ai"><a href="/explainable_ai">可解释AI</a></div>
+                        </div>
+
+                        <div class="category">应用驱动的可视分析</div>
+                        <div class="application-driven">
+                            <div class="row" id="row1">
+                                <div class="apps"><a href="/social_media">社交媒体</a></div>
+                                <div class="apps"><a href="/autonomous_driving">自动驾驶</a></div>
+                                <div class="apps"><a href="/financial_technology">金融科技</a></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="apps"><a href="/digital_humanities">数字人文</a></div>
+                                <div class="apps"><a href="/security_analysis">安全分析</a></div>
+                                <div class="apps"><a href="/scientific_applications">科学计算</a></div>
+                            </div>
+
+                        </div>
+
+                        <div class="category">数字孪生</div>
+
+                        <div class="digital_twins"><a href="/digital_twins">数字孪生</a></div>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <%- partial('_partial/copyright') %>
+    </div>
+</body>

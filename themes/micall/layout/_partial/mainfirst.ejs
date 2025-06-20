@@ -1,0 +1,44 @@
+<div id="main">
+    <!-- Main first s-->
+    <article id="me" class="panel">
+        <header>
+            <div class='title'>
+                <div class='logo'><img style='height: 3rem; width: auto; display: block' src="<%- theme.head.favicon  %>" /> </div>
+                <b id='lab_intro_title'>&nbsp;<%- theme.MainFirst.name %></b>
+            </div>
+            <p id='lab_intro'>
+                &emsp; &emsp;
+                <%- theme.MainFirst.description %>
+            </p>
+            <p><br></p>
+            <p id='contactor'>联系人：陈思明（simingchen3@gmail.com、simingchen@fudan.edu.cn）</p>
+            <a class='QRCode' onmouseover='hover()' onmouseout='after()'>
+                微信公众号：FDUVIS可视分析与智能决策实验室
+                <img id='QRicon' src="<%- theme.MainFirst.wechat_icon  %>" alt="" />
+                <div id='QRimg'>
+                    <img class='QRimg ' src="<%- theme.MainFirst.QRcode %>" alt="" />
+                </div>
+            </a>
+
+        </header>
+        <a class="jumplink pic">
+            <img src="<%- theme.MainFirst.pic_url  %>" alt="" />
+        </a>
+        <!-- <div id='QRimg'>
+            <img class='QRimg ' src="<%- theme.MainFirst.QRcode %>" alt="" />
+        </div> -->
+    </article>
+    <!-- Main first e-->
+</div>
+
+<script>
+    function hover() {
+        obj = document.getElementById("QRimg");
+        obj.style.display = 'flex'
+    }
+
+    function after() {
+        obj = document.getElementById("QRimg");
+        obj.style.display = 'none'
+    }
+</script>
