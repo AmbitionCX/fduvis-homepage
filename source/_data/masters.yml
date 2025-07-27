@@ -111,8 +111,12 @@
 
 侯名扬:
   avatar: '/members/侯名扬.jpg'
-  descr: '大数据'
+  descr: 'Explainable AI'
 
 张钊瑜:
   avatar: '/members/张钊瑜.png'
   descr: 'UI Agent'
+
+蔡子晨:
+  avatar: '/members/蔡子晨.jpg'
+  descr: '智能教育/UI Agent'

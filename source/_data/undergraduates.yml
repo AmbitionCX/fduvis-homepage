@@ -21,6 +21,7 @@
 
 郑智君:
   avatar: "/members/郑智君.jpg"
+  descr: "智能可视化生成"
 
 乔一宸:
   avatar: "/members/乔一宸.png"
@@ -53,7 +54,15 @@
 刘俊彦:
   avatar: "/members/刘俊彦.png"
   descr: "大模型驱动的社交媒体仿真"
-  
+
+王铿轶:
+  avatar: "/members/王铿轶.jpg"
+  descr: "社交媒体大规模交互式仿真"
+
+林佳慧:
+  avatar: "/members/林佳慧.jpg"
+  descr: "故事叙述、人物传记视频生成"
+
 # 姚宇欣:
 #   avatar: "/members/姚宇欣.jpg"
 

@@ -4,7 +4,7 @@ graduated_2025:
   masters:
     程子琛:
       avatar: "/members/程子琛.jpg"
-      descr: "大连飞创"
+      descr: "大连商品交易所"
 
     程梦琴:
       avatar: "/members/程梦琴.jpeg"
@@ -12,7 +12,7 @@ graduated_2025:
 
     戴宇轩:
       avatar: "/members/戴宇轩.jpg"
-      descr: "吉利汽车研究院"
+      descr: "吉利汽车"
 
     高琳: 
       avatar: '/members/高琳.jpg'
@@ -20,7 +20,7 @@ graduated_2025:
 
     加兴华:
       avatar: "/members/加兴华.jpg"
-      descr: "飞书"
+      descr: "字节跳动"
 
     彭蕾:
       avatar: "/members/彭蕾.jpeg"
@@ -43,10 +43,11 @@ graduated_2025:
 
     叶新武: 
       avatar: '/members/叶新武.jpg'
+      descr: "易方达基金"
 
     万怡:
       avatar: "/members/万怡.jpg"
-      descr: "银行科技"
+      descr: "四川农信"
 
     张熠星: 
       avatar: '/members/张熠星.jpg'
@@ -61,6 +62,19 @@ graduated_2025:
     武柯昊:
       avatar: "/members/武柯昊.jpg"
       descr: "复旦大学"
+    
+    黎卓林:
+      avatar: "/members/黎卓林.jpg"
+      descr: "新加坡国立大学"
+
+    朱泓宇:
+      avatar: "/members/朱泓宇.jpg"
+      descr: "新加坡国立大学"
+    
+    李鸣正:
+      avatar: "/members/李鸣正.png"
+      descr: "香港科技大学"
+
 
 graduated_2024:
   head: "2024"
