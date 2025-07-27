@@ -8,11 +8,13 @@
       avatar: '/members/赵宇恒.jpg'
       type: 博士研究生
       descr: '大模型驱动的智能可视分析'
+      link: 'https://zyh1222.github.io/'
 
 邵则开:
        avatar: "/members/邵则开.jpg"
        type: 博士研究生
        descr: "AI+VIS"
+       link: 'https://zekaishao25.github.io/'
 
 冯捷琳:
       avatar: '/members/冯捷琳.jpg'
@@ -43,3 +45,18 @@
 杨一航:
       avatar: '/members/杨一航.jpg'
       type: 博士研究生
+
+周湘洋:
+      avatar: '/members/周湘洋.jpg'
+      type: 博士研究生
+      descr: "VR,AR沉浸式应用"
+
+姜证严:
+      avatar: '/members/姜证严.png'
+      type: 博士研究生
+      descr: "人工智能可视分析"
+
+陈希:
+      avatar: '/members/陈希.png'
+      type: 博士研究生
+      descr: "数据要素与人工智能"

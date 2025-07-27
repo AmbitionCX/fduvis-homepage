@@ -1,4 +1,67 @@
 # avatar默认相对路径：/micall/source
+graduated_2025:
+  head: "2025"
+  masters:
+    程子琛:
+      avatar: "/members/程子琛.jpg"
+      descr: "大连飞创"
+
+    程梦琴:
+      avatar: "/members/程梦琴.jpeg"
+      descr: "复旦大学"
+
+    戴宇轩:
+      avatar: "/members/戴宇轩.jpg"
+      descr: "吉利汽车研究院"
+
+    高琳: 
+      avatar: '/members/高琳.jpg'
+      descr: "University of Waterloo"
+
+    加兴华:
+      avatar: "/members/加兴华.jpg"
+      descr: "飞书"
+
+    彭蕾:
+      avatar: "/members/彭蕾.jpeg"
+
+    梅书鸿:
+      avatar: "/members/梅书鸿.jpg"
+      descr: "京东"
+
+    王隽杰:
+      avatar: "/members/王隽杰.jpeg"
+      descr: "京东"
+
+    申俊鹏:
+      avatar: "/members/申俊鹏.jpg"
+      descr: "TP-Link联洲"
+
+    宋伟轩:
+      avatar: "/members/宋伟轩.jpg"
+      descr: "阿里云"
+
+    叶新武: 
+      avatar: '/members/叶新武.jpg'
+
+    万怡:
+      avatar: "/members/万怡.jpg"
+      descr: "银行科技"
+
+    张熠星: 
+      avatar: '/members/张熠星.jpg'
+      descr: "快手"
+
+  undergraduates:
+
+    郭子菲:
+      avatar: "/members/郭子菲.jpg"
+      descr: "西北大学"
+
+    武柯昊:
+      avatar: "/members/武柯昊.jpg"
+      descr: "复旦大学"
+
 graduated_2024:
   head: "2024"
   masters:
@@ -49,6 +112,10 @@ graduated_2024:
     郑惠元:
       avatar: "/members/郑惠元.jpg"
       descr: "复旦大学"
+
+    刘佳怡:
+      avatar: "/members/刘佳怡.jpg"
+      descr: "University of North Carolina at Chapel Hill"
 
   visitings:
     蓝钰萱:

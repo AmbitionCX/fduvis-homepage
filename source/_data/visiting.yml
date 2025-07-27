@@ -1,13 +1,3 @@
-蔡子晨:
-      avatar: '/members/蔡子晨.jpg'
-      institution: '上海财经大学'
-      descr: '访问学生'
-
-范力文:
-      avatar: '/members/范力文.jpg'
-      institution: '北京理工大学'
-      descr: '访问学生'
-
 郭宇涵:
       avatar: '/members/郭宇涵.jpg'
       institution: '北京大学'
@@ -28,11 +18,6 @@ Jason K. Wong:
 Noah Lichtenberg:
       avatar: '/members/Noah.jpg'
       institution: 'Emory University'
-      descr: '访问学生'
-
-田鑫芳:
-      avatar: '/members/田鑫芳.jpg'
-      institution: '湖南大学'
       descr: '访问学生'
 
 王诺祺:
@@ -58,3 +43,33 @@ Noah Lichtenberg:
       avatar: '/members/张静妍.jpg'
       institution: '亚琛工业大学'
       descr: '远程访问学生'
+
+LUU THI MINH KHUE:
+      avatar: '/members/LUU-THI-MINH-KHUE.jpg'
+      institution: '天津大学'
+      descr: '访问学生'
+
+柴铭:
+      avatar: '/members/柴铭.png'
+      institution: '宾西法尼亚州立大学'
+      descr: '访问学生'
+
+鲁尧:
+      avatar: '/members/鲁尧.png'
+      institution: 'KTH Royal Institute of Technology'
+      descr: '访问学生'
+
+Svetlana Lukina:
+      avatar: '/members/Svetlana-Lukina.png'
+      institution: 'Skolkovo Institute of Science and Technology'
+      descr: '访问学生'
+
+Aaron Wiebel:
+      avatar: '/members/Aaron-Wiebel.png'
+      institution: 'University of Münster'
+      descr: '访问学生'
+
+祝振伟:
+      avatar: '/members/祝振伟.png'
+      institution: '华威大学'
+      descr: '访问学生'

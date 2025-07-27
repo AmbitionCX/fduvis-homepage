@@ -22,7 +22,7 @@
 - 获奖预览图： `awards`
 - 新闻图片： `news`
 - 实验室相册： `photos`
-- 建议所有图片进行压缩后再上传，可使用 `tinypng` 等网站完成压缩。
+- 建议所有图片进行压缩后再上传，可使用 [iloveimg](https://www.iloveimg.com/) 进行裁剪，使用 [tinypng](https://tinify.com/web) 进行压缩。
 
 ## 信息存放地址：
 - 各类信息表存放在此目录下： `source\_data`

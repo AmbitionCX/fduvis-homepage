@@ -1,28 +1,15 @@
 # avatar默认相对路径：/micall/source
-程子琛:
-  avatar: "/members/程子琛.jpg"
-  descr: "多智能体数字孪生与可视分析"
-
-程梦琴:
-  avatar: "/members/程梦琴.jpeg"
-  descr: "数据新闻与故事叙述"
-
-戴宇轩:
-  avatar: "/members/戴宇轩.jpg"
-  descr: "领域大模型可视分析"
-
 丁天睿:
   avatar: "/members/丁天睿.jpg"
-
-高琳: 
-  avatar: '/members/高琳.jpg'
-  descr: "领域大模型可视分析"
+  descr: "金融科技"
 
 郭澳林:
   avatar: "/members/郭澳林.jpg"
+  descr: "大模型后训练"
 
 郭萌:
   avatar: "/members/郭萌.jpg"
+  descr: "金融科技"
 
 郭佳炜:
   avatar: "/members/郭佳炜.jpg"
@@ -31,21 +18,21 @@
   avatar: "/members/何诣轩.jpg"
   descr: "AI+VIS"
 
-加兴华:
-  avatar: "/members/加兴华.jpg"
-  descr: "金融可视分析"
-
 居正:
-  avatar: "/members/居正.jpg"
+  avatar: "/members/居正.png"
+  descr: "AI+VIS"
 
 李芊慧:
   avatar: "/members/李芊慧.jpg"
+  descr: "故事叙述"
 
 林卓然:
   avatar: "/members/林卓然.jpg"
+  descr: "数据智能"
 
 刘臻:
   avatar: "/members/刘臻.jpg"
+  descr: "故事叙述"
 
 卢婧:
   avatar: "/members/卢婧.jpg"
@@ -55,39 +42,17 @@
   avatar: "/members/吕昕凯.jpg"
   descr: "可解释性AI"
 
-彭蕾:
-  avatar: "/members/彭蕾.jpeg"
-  descr: "时空可视化"
-
-梅书鸿:
-  avatar: "/members/梅书鸿.jpg"
-  descr: "金融大模型驱动的可视分析"
-
 邱天:
-      avatar: '/members/邱天.jpg'
-
-申俊鹏:
-  avatar: "/members/申俊鹏.jpg"
-  descr: "自动驾驶可视分析"
+  avatar: '/members/邱天.jpg'
+  descr: "智能可视化生成"
 
 舒雪莉:
   avatar: "/members/舒雪莉.jpg"
-
-宋伟轩:
-  avatar: "/members/宋伟轩.jpg"
-  descr: "高维数据可视化"
-
-万怡:
-  avatar: "/members/万怡.jpg"
-  descr: "金融可视分析"
+  descr: "可视分析"
 
 王芬:
   avatar: "/members/王芬.jpg"
   descr: "数字孪生与元宇宙"
-
-王隽杰:
-  avatar: "/members/王隽杰.jpeg"
-  descr: "大模型驱动的智能可视分析"
 
 王哲:
   avatar: "/members/王哲.png"
@@ -96,10 +61,6 @@
 汪柏淼:
   avatar: "/members/汪柏淼.jpg"
   descr: "故事叙述"
-
-叶新武: 
-  avatar: '/members/叶新武.jpg'
-  descr: "交互式与可解释性AI"
 
 易晨: 
   avatar: '/members/易晨.jpg'
@@ -116,10 +77,42 @@
   avatar: '/members/张异非.jpg'
   descr: "沉浸式可视化、虚拟现实"
 
-张熠星: 
-  avatar: '/members/张熠星.jpg'
-  descr: "智能可视分析"
-
 朱润宇: 
   avatar: '/members/朱润宇.jpg'
+  descr: "Explainable AI"
 
+黄俊杰:
+  avatar: "/members/黄俊杰.png"
+  descr: "3D, LLM Application"
+
+范力文:
+  avatar: "/members/范力文.jpg"
+  descr: "Agent"
+  link: "https://flwfdd.xyz"
+
+田鑫芳:
+  avatar: '/members/田鑫芳.jpg'
+  descr: '运动可视分析'
+
+沈帅:
+  avatar: '/members/沈帅.jpg'
+  descr: '故事叙述'
+
+王晨萱:
+  avatar: '/members/王晨萱.png'
+
+郑廷涛:
+  avatar: '/members/郑廷涛.png'
+  descr: '人工智能'
+
+符航:
+  avatar: '/members/符航.png'
+  descr: '可视化构建'
+
+侯名扬:
+  avatar: '/members/侯名扬.jpg'
+  descr: '大数据'
+
+张钊瑜:
+  avatar: '/members/张钊瑜.png'
+  descr: 'UI Agent'
