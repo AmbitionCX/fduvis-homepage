@@ -7,7 +7,7 @@ graduated_2025:
       descr: "大连商品交易所"
 
     程梦琴:
-      avatar: "/members/程梦琴.jpeg"
+      avatar: "/members/程梦琴.png"
       descr: "复旦大学"
 
     戴宇轩:
@@ -52,6 +52,10 @@ graduated_2025:
     张熠星: 
       avatar: '/members/张熠星.jpg'
       descr: "快手"
+    
+    高浩伦:
+      avatar: '/members/高浩伦.png'
+      descr: "积优基金"
 
   undergraduates:
 

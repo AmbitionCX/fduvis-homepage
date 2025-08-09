@@ -122,6 +122,38 @@
         border: 0px;
     }
 
+    .administrator-box {
+        padding-top: 10px;
+        padding-left: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        display: flex;
+        border: 0px;
+    }
+
+    .administrator-pic {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 40%;
+        display: inline;
+    }
+
+    .administrator-pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .administrator-desc {
+        width: 70%;
+        display: inline;
+        margin-left: 5%;
+        color: #4e5052;
+        font-size: 1rem;
+    }
+
     .picd {
         margin-top: 0px;
         padding-top: 0px;
@@ -182,7 +214,6 @@
                 <div class="demo">
                     <div class="container">
 
-
                         <div class="category">指导老师</div>
                         <div class="row">
                             <% if (site.data.director) { %>
@@ -211,6 +242,33 @@
                                     <% } %>
                                         <% } %>
                         </div>
+
+                        <!-- <div class="category">科研行政老师</div>
+                        <div class="row">
+                            <% if (site.data.administrators) { %>
+                                <% for (var i in site.data.administrators) { %>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="background">
+                                            <div class='administrator-box'>
+                                                <div class='administrator-pic'>
+                                                    <img src='<%= site.data.administrators[i].avatar %>'>
+                                                </div>
+                                                <div class='administrator-desc'>
+                                                    <h3 class="title">
+                                                        <%= i %>
+                                                    </h3>
+                                                    <% if (site.data.administrators[i].type !=null) { %>
+                                                        <Span class="post">
+                                                            <%= site.data.administrators[i].type %>
+                                                        </Span>
+                                                        <%}%>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <% } %>
+                                        <% } %>
+                        </div> -->
 
                         <div class="category">博士研究生</div>
                         <div class="row">
@@ -283,7 +341,7 @@
                                     <% } %>
                                         <% } %>
 
-                                        
+
                         </div>
 
 
@@ -302,8 +360,9 @@
                                                     <%= i %>
                                                 </h3>
                                                 <% if (site.data.undergraduates[i].descr !=null) { %>
-                                                    <Span class="post smaller">研究方向：<%= site.data.undergraduates[i].descr %>
-                                                            </Span>
+                                                    <Span class="post smaller">研究方向：<%=
+                                                            site.data.undergraduates[i].descr %>
+                                                    </Span>
                                                     <%}%>
                                             </div>
                                             <ul class="social">

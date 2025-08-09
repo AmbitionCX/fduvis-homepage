@@ -11,6 +11,16 @@ award_2025:
                   pic: /awards/PVis2025-HonorableMention.jpg
                   head: 'Pacific Visualization 2025 - Conference Track Honorable Mention'
                   author: <b>邱天</b>，<b>王芬</b>，<b>黄绍华</b>，<b>郭萌</b>，<b>赵宇恒</b>，<b>李金城</b>，<b>陈思明</b>
+
+award_2024:
+      head: '2024'
+      awd:
+            Shuxuejianmo-lanjiexiang:
+                  pic: /awards/Shuxuejianmo-lanjiexiang.png
+                  head: '2024年高教社杯全国大学生数学建模竞赛本科组二等奖'
+                  author: 蓝杰翔
+
+
 award_2023:
       head: '2023'
       awd:
@@ -45,7 +55,7 @@ award_2023:
                   author: <b>刘佳怡</b>
 
             awd14: 
-                  pic: /publications/blk.png
+                  pic: /awards/Huaweiruanjian-zhangyixing.jpg
                   head: '华为软件精英挑战赛 - 银奖'
                   author: <b>张熠星</b>
 
