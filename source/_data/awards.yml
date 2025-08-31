@@ -2,10 +2,15 @@
 award_2025:
       head: '2025'
       awd:
+            AI2000:
+                  pic: /awards/AI2000-Simingchen.jpg
+                  head: '2025 AI 2000 Most Influential Scholar Award Honorable Mention'
+                  author: <b>陈思明</b>
+
             awd15:
                   pic: /awards/ChinaVis2025-BestPoster.jpg
                   head: 'ChinaVis 2025 Best Poster'
-                  author: <b>冯捷琳</b>，<b>叶新武</b>，<b>李芊慧</b>，<b>Verena Ingrid Prantl</b>，<b>姚闰翔</b>，<b>王韵</b>，<b>陈思明</b>
+                  author: <b>冯捷琳，叶新武，李芊慧，Verena Ingrid Prantl，姚闰翔，王韵，陈思明</b>
 
             awd14:
                   pic: /awards/PVis2025-HonorableMention.jpg
@@ -18,7 +23,7 @@ award_2024:
             Shuxuejianmo-lanjiexiang:
                   pic: /awards/Shuxuejianmo-lanjiexiang.png
                   head: '2024年高教社杯全国大学生数学建模竞赛本科组二等奖'
-                  author: 蓝杰翔
+                  author: <b>蓝杰翔</b>
 
 
 award_2023:

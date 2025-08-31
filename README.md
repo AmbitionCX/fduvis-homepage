@@ -24,7 +24,7 @@
 - 实验室相册： `photos`
 - 建议所有图片进行压缩后再上传，可使用 [iloveimg](https://www.iloveimg.com/) 进行裁剪，使用 [tinypng](https://tinify.com/web) 进行压缩。
 
-Compress PNG images with `optipng`
+Compress PNG images
 ```shell
 # quality: 1 (worst quality, smallest file) - 100 (best quality, largest file):
 convert input.png -quality 50 output.jpg
