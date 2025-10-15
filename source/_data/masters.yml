@@ -81,6 +81,10 @@
   avatar: '/members/朱润宇.jpg'
   descr: "Explainable AI"
 
+汪怿凯: 
+  avatar: '/members/汪怿凯.png'
+  descr: "区块链金融"
+
 黄俊杰:
   avatar: "/members/黄俊杰.png"
   descr: "3D, LLM Application"
@@ -120,3 +124,11 @@
 蔡子晨:
   avatar: '/members/蔡子晨.jpg'
   descr: '智能教育/UI Agent'
+
+康祺曼:
+  avatar: '/members/康祺曼.png'
+  descr: '故事叙述'
+
+毛琦竣:
+  avatar: '/members/毛琦竣.png'
+  descr: 'UI Agent'
