@@ -1,4 +1,12 @@
 # avatar默认相对路径：/micall/source
+谭佳:
+    avatar: "/members/谭佳.png"
+    type: 博士后研究员
+
+李之行:
+    avatar: "/members/李之行.png"
+    type: 博士后研究员
+
 郭浩贇:
     avatar: "/members/郭浩贇.jpg"
     type: 研究助理

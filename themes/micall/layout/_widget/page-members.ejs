@@ -243,7 +243,7 @@
                                         <% } %>
                         </div>
 
-                        <div class="category">科研行政老师</div>
+                        <div class="category">博后与研究助理</div>
                         <div class="row">
                             <% if (site.data.administrators) { %>
                                 <% for (var i in site.data.administrators) { %>
@@ -272,31 +272,31 @@
 
                         <div class="category">博士研究生</div>
                         <div class="row">
-                            <% if (site.data.assistants_phds) { %>
-                                <% for (var i in site.data.assistants_phds) { %>
+                            <% if (site.data.phds) { %>
+                                <% for (var i in site.data.phds) { %>
                                     <div class="col-md-3 col-sm-6" style="margin-top: 30px">
                                         <div class="our-team">
                                             <div class="pic">
-                                                <img src="<%= site.data.assistants_phds[i].avatar %>">
+                                                <img src="<%= site.data.phds[i].avatar %>">
                                             </div>
                                             <div class="team-content">
                                                 <h3 class="title">
                                                     <%= i %>
                                                 </h3>
-                                                <% if (site.data.assistants_phds[i].type !=null) { %>
+                                                <% if (site.data.phds[i].type !=null) { %>
                                                     <Span class="post">
-                                                        <%= site.data.assistants_phds[i].type %>
+                                                        <%= site.data.phds[i].type %>
                                                     </Span>
                                                     <%}%>
-                                                        <% if (site.data.assistants_phds[i].descr !=null) { %>
+                                                        <% if (site.data.phds[i].descr !=null) { %>
                                                             <Span class="post">研究方向：<%=
-                                                                    site.data.assistants_phds[i].descr %></Span>
+                                                                    site.data.phds[i].descr %></Span>
                                                             <%}%>
                                             </div>
                                             <ul class="social">
-                                                <% if (site.data.assistants_phds[i].link !=null) { %>
+                                                <% if (site.data.phds[i].link !=null) { %>
                                                     <li>
-                                                        <a href="<%= site.data.assistants_phds[i].link%>"
+                                                        <a href="<%= site.data.phds[i].link%>"
                                                             class="fa fa-link"></a>
                                                     </li>
                                                     <%}%>

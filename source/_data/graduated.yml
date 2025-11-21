@@ -321,10 +321,10 @@ graduated_2022:
           avatar: '/members/谭思危.jpg'
           descr: '浙江大学'
 
-    张宇:
-      link: "https://zhangyu94.github.io/"
-      avatar: "/members/张宇.jpg"
-      descr: ""
+    # 张宇:
+    #   link: "https://zhangyu94.github.io/"
+    #   avatar: "/members/张宇.jpg"
+    #   descr: ""
 
 graduated_2021:
   head: "2021"

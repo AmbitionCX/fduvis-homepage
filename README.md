@@ -33,7 +33,8 @@ convert input.png -quality 50 output.jpg
 ## 信息存放地址：
 - 各类信息表存放在此目录下： `source\_data`
 - 指导老师： `director.yml`
-- 博士生和研究助理： `assistants_phds.yml`
+- 博后与研究助理：`administrators.yml`
+- 博士生： `phds.yml`
 - 研究生： `masters.yml`
 - 本科生： `undergraduates.yml`
 - 访问学生： `visiting.yml`
