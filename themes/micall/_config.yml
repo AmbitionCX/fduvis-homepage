@@ -53,6 +53,8 @@ MainFirst:
     pic_url: /images/pic.jpg
     QRcode: /images/qrcode.png
     wechat_icon: /images/wechat.png
+    xiaohongshu_qrcode: /images/xiaohongshu-qrcode.png
+    xiaohongshu_icon: /images/xiaohongshu-icon.png
     #goto_ulr: ""
 
 Gallery:
