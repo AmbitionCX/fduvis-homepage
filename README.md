@@ -27,7 +27,7 @@
 Compress PNG images
 ```shell
 # quality: 1 (worst quality, smallest file) - 100 (best quality, largest file):
-convert input.png -quality 50 output.jpg
+convert input.png -quality 20 -strip output.jpg
 ```
 
 ## 信息存放地址：
@@ -47,17 +47,20 @@ convert input.png -quality 50 output.jpg
 
 ## 研究项目标签：
 主要用于对发表论文进行分类归档，在 `publications.yml` 中添加新论文时，使用project字段为论文增加分类标签，对应如下：
-- 交互式AI： `interactive_ai`
-- 可解释AI： `explainable_ai`
-- 社交媒体： `social_media`
+- AI4VIS： `ai4vis`
+- Explainable AI： `explainable_ai`
+- 社交模拟仿真： `social_simulation`
 - 自动驾驶： `autonomous_driving`
-- 城市分析： `urban_analysis`
+- 生物智能： `bio_intelligence`
 - 数字人文： `digital_humanities`
-- 安全分析： `security_analysis`
-- 金融科技： `financial_echnology`
-- 科学计算： `scientific_applications`
-- 数字孪生： `digital_twins`
+- 智能教育： `smart_education`
+- 智能电力： `smart_power`
+- 金融科技： `financial_technology`
+- 文化智能： `culture_intelligence`
+- 三维可视化： `three_d_viz`
 - 故事叙述： `storytelling`
+- Intelligent VA： `intelligent_va`
+- UI Agent： `ui_agent`
 
 ## 页面源代码：
 页面代码保存在此目录下： `themes\micall\layout`

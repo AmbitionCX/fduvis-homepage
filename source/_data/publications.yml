@@ -1,7 +1,157 @@
 # 相对路径：/micall/source
+pub_2026:
+      head: '2026'
+      pub:
+            pub5:
+                  pic: /publications/InfoAlign.jpg
+                  head: 'InfoAlign: A Human-AI Co-Creation System for Storytelling with Infographics.'
+                  author: <b>Jielin Feng</b>, <b>Xinwu Ye</b>, <b>Qianhui Li</b>, Verena Ingrid Prantl, <b>Jun-Hsiang Yao</b>, <b>Yuheng Zhao</b>, Yun Wang, <b>Siming Chen*</b>.
+                  journal: "<em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'26)</em>, Accepted, 2026."
+                  project: storytelling
+
+            pub4:
+                  pic: /publications/TowerofBabel.jpg
+                  head: 'Tower of Babel in Cross-Cultural Communication: A Case Study of #Give Me a Chinese Name# Dialogues During the "TikTok Refugees" Event.'
+                  author: <b>Jielin Feng</b>, Zhibo Yang, Jingyi Zhao, Yujia Li, <b>Xinwu Ye</b>, <b>Xingyu Lan*</b>, <b>Siming Chen*</b>.
+                  journal: "<em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'26)</em>, Accepted, 2026."
+                  project: digital_humanities
+
+            pub3:
+                  pic: /publications/FromStruggletoSuccess.jpg
+                  head: 'From Struggle to Success: Context-Aware Guidance for Screen Reader Users in Computer Use.'
+                  author: Nan Chen, <b>Jing Lu</b>, Zilong Wang, Luna K Qiu, <b>Siming Chen*</b>, Yuqing Yang.
+                  journal: "<em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'26)</em>, Accepted, 2026."
+                  project: smart_education
+
+            pub2:
+                  pic: /publications/DynamicShifts.jpg
+                  head: 'Dynamic Shifts: Understanding the Network Position as Social Capital to Enhancing the Innovation Performance of Frontier AI Labs.'
+                  author: Boen Liu, Jingjing Qu, Hui Zou, Jiayi Liu, <b>Siming Chen</b>, Yang Chen.
+                  journal: "<em>Technovation</em>, Accepted, 2026."
+                  project: social_simulation
+
+            pub1:
+                  pic: /publications/NotebookRAG.jpg
+                  head: 'NotebookRAG: Retrieving Multiple Notebooks to Augment the Generation of EDA Notebooks for Crowd-Wisdom.'
+                  author: <b>Yi Shan</b>, <b>Yixuan He</b>, <b>Zekai Shao</b>, Kai Xu, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Pacific Visualization Conference (PacificVis 2026)</em>, Accepted, 2026."
+                  project: intelligent_va
+
+            pub0:
+                  pic: /publications/EnhancingSpatialLearning.jpg
+                  head: 'Enhancing Spatial Learning under Visual Cues: A Comparative Study of Virtual Environments and Perspectives.'
+                  author: <b>Yifei Zhang</b>, Lizhe Chen, <b>Jun-Hsiang Yao</b>, Zhan Wang, <b>Siming Chen*</b>.
+                  journal: "<em>Visual Informatics</em>, Accepted, 2026."
+                  project: three_d_viz
+
 pub_2025:
       head: '2025'
       pub:
+            pub19:
+                  pic: /publications/BeyondtheBroadcast.jpg
+                  head: 'Beyond the Broadcast: Enhancing VR Tennis Broadcasting through Embedded Visualizations and Camera Techniques.'
+                  author: <b>Jun-Hsiang Yao</b>, <b>Jielin Feng</b>, <b>Xinfang Tian</b>, Kai Xu, Gulshat Amirkhanova, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS'25)</em>, Accepted, 2025."
+                  project: three_d_viz
+      
+            pub18:
+                  pic: /publications/ProactiveVA.jpg
+                  head: 'ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent.'
+                  author: <b>Yuheng Zhao</b>, <b>Xueli Shu</b>, <b>Liwen Fan</b>, <b>Lin Gao</b>, <b>Yu Zhang</b>, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS'25)</em>, Accepted, 2025."
+                  project: ui_agent
+
+            pub17:
+                  pic: /publications/SceneLoom.jpg
+                  head: 'SceneLoom: Communicating Data with Scene Context.'
+                  author: <b>Lin Gao</b>, Leixian Shen, <b>Yuheng Zhao</b>, <b>Jiexiang Lan</b>, Huamin Qu, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (IEEE VIS'25)</em>, Accepted, 2025."
+                  project: storytelling
+
+            pub16:
+                  pic: /publications/KinemaFX.jpg
+                  head: 'KinemaFX: A Kinematic-Driven Interactive System for Particle Effect Exploration and Customization.'
+                  author: <b>Yifei Zhang</b>, Linping Yuan, <b>Yuheng Zhao</b>, <b>Jielin Feng</b>, <b>Siming Chen*</b>.
+                  journal: "<em>ACM Symposium on User Interface Software and Technology (UIST'25)</em>, Accepted, 2025."
+                  project: three_d_viz
+
+            pub15:
+                  pic: /publications/LLMAlign.jpg
+                  head: 'Do Language Model Agents Align with Humans in Rating Visualizations? An Empirical Study.'
+                  author: <b>Zekai Shao</b>, <b>Yi Shan</b>, <b>Yixuan He</b>, <b>Yuxuan Yao</b>, <b>Junhong Wang</b>, Xiaolong Zhang, <b>Yu Zhang</b>, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Computer Graphics and Applications (CG&A)</em>, Accepted, 2025."
+                  project: ai4vis
+
+            pub14:
+                  pic: /publications/InteractiveSimulationVA.jpg
+                  head: 'Interactive Simulation and Visual Analysis of Social Media Event Dynamics with LLM-based Multi-agent Modeling.'
+                  author: <b>Zichen Cheng</b>, <b>Ziyue Lin</b>, <b>Yihang Yang</b>, Zhongyu Wei, <b>Siming Chen*</b>.
+                  journal: "<em>Visual Informatics</em>, Accepted, 2025."
+                  project: social_simulation
+
+            pub13:
+                  pic: /publications/ContextualizedVA.jpg
+                  head: 'Contextualized Visual Analytics for Multivariate Events.'
+                  author: <b>Lei Peng</b>, <b>Ziyue Lin</b>, Natalia Andrienko, Gennady Andrienko, <b>Siming Chen*</b>.
+                  journal: "<em>Visual Informatics</em>, Accepted, 2025."
+                  project: storytelling
+
+            pub12:
+                  pic: /publications/SimSpark.jpg
+                  head: 'SimSpark: Interactive Simulation of Social Media Behaviors.'
+                  author: <b>Ziyue Lin</b>, <b>Yi Shan</b>, <b>Lin Gao</b>, <b>Xinghua Jia</b>, <b>Siming Chen*</b>
+                  journal: "<em>ACM on Human-Computer Interaction (CSCW)</em>, Accepted, 2025."
+                  project: social_simulation
+
+            pub11:
+                  pic: /publications/UnlockingScientificConcepts.jpg
+                  head: 'Unlocking Scientific Concepts: How Effective Are LLM-Generated Analogies for Student Understanding and Classroom Practice?'
+                  author: <b>Zekai Shao</b>, Siyu Yuan, <b>Lin Gao</b>, <b>Yixuan He</b>, Deqing Yang, <b>Siming Chen*</b>.
+                  journal: "<em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'25)</em>, Accepted, 2025."
+                  project: storytelling
+
+            pub10:
+                  pic: /publications/SocialMediaIsland.jpg
+                  head: 'Social Media Island: Interactive User Profiling and Information Diffusion Exploration with 3D Visual Metaphors.'
+                  author: <b>Jinjing Jiang</b>, <b>Yuheng Zhao</b>, <b>Jun-Hsiang Yao</b>, <b>Huiting Wang</b>, <b>Xuexi Wang</b>, Lana Blue, Chen Guo, Xudong Li, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Pacific Visualization Conference (PacificVis 2025)</em>, Accepted, 2025."
+                  project: social_simulation
+
+            pub9:
+                  pic: /publications/GNNFairViz.jpg
+                  head: 'GNNFairViz: Visual Analysis for Graph Neural Network Fairness.'
+                  author: <b>Xinwu Ye</b>, <b>Jielin Feng</b>, Erasmo Purificato, Ludovico Boratto, Michael Kamp, Zengfeng Huang, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, Accepted, 2025."
+                  project: explainable_ai
+
+            pub8:
+                  pic: /publications/BioVistory.jpg
+                  head: 'BioVistory: An End-to-End Visualization Generation System to Support Storytelling with Biographical Text Data.'
+                  author: <b>Yanlin Fei</b>, Tian Gao, <b>Yanda Li</b>, Yang Shi, Nan Cao, <b>Siming Chen*</b>.
+                  journal: "<em>Journal of Computer-Aided Design & Computer Graphics (CAD&CG)</em>, Accepted, 2025."
+                  project: digital_humanities
+
+            pub7:
+                  pic: /publications/VisualNetOM.jpg
+                  head: 'VisualNetO&M: A Digital Twin-Based Collaborative Visualization System for Power System Communication Network Operation and Maintenance.'
+                  author: Le Liu, Yong Li, Chuhua Yang, Guang Dai, Kaifeng Bai, Gang Chen, <b>Siming Chen</b>, Peng Wang.
+                  journal: "<em>International Symposium on Visual Information Communication and Interaction (VINCI 2025)</em>, Accepted, 2025."
+                  project: smart_power
+
+            pub6:
+                  pic: /publications/ST2VR.jpg
+                  head: 'ST2VR: An Interactive Authoring System for SpatioTemporal STorytelling in Virtual Reality with Hierarchical Narrative Structure.'
+                  author: <b>Yifei Zhang</b>, Jingyan Zhang, <b>Ziyue Lin</b>, Linping Yuan, Jun Han, Yalong Yang, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Pacific Visualization Conference (PacificVis 2025)</em>, Accepted, 2025."
+                  project: threes_d_viz
+
+            pub5:
+                  pic: /publications/SmartMLVs.png
+                  head: 'SmartMLVs: LLM-enabled Multiple Linked Views Generation for Interactive Visualization.'
+                  author: <b>Tian Qiu</b>, <b>Fen Wang</b>, <b>Shaohua Huang</b>, <b>Meng Guo</b>, <b>Yuheng Zhao</b>, Jincheng Li, <b>Siming Chen*</b>.
+                  journal: "<em>IEEE Pacific Visualization Conference (PacificVis 2025)</em>, Accepted, 2025."
+                  project: ai4vis
+
             pub4:
                   pic: /publications/narrativeplayer.png
                   head: 'Narrative Player: Reviving Data Narratives with Visuals.'
