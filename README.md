@@ -45,7 +45,7 @@ convert input.png -quality 20 -strip output.jpg
 - 相册： `gallery.yml`
 - 当需要更新信息时（如添加成员、新闻），按照原格式在文件最上方继续添加即可。
 
-## 研究项目标签：
+## 研究方向标签：
 主要用于对发表论文进行分类归档，在 `publications.yml` 中添加新论文时，使用project字段为论文增加分类标签，对应如下：
 - AI4VIS： `ai4vis`
 - Explainable AI： `explainable_ai`
@@ -64,7 +64,7 @@ convert input.png -quality 20 -strip output.jpg
 
 ## 页面源代码：
 页面代码保存在此目录下： `themes\micall\layout`
-- `_widget` 文件夹：子页面源代码都在此文件夹下，如发表论文页、成员页、各个研究项目的子页面等
+- `_widget` 文件夹：子页面源代码都在此文件夹下，如发表论文页、成员页、各个研究方向的子页面等
 - 在导航栏添加新页面的步骤（由于使用的模板较为古旧，步骤比较繁琐）：
 1. 在配置文件 `themes\micall\_config.yml` 中的 `pages` 字段下登记新页面
 2. 在 `source` 文件夹下新建文件夹，然后和其它文件夹下一样（如对应新闻的 `news` 文件夹），添加一个 `index.md` 文件（需要改内部字段，不要直接复制）

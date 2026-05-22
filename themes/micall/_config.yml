@@ -30,7 +30,7 @@ Nav:
     pages:
         论文发表:
             link: "/publications/"
-        研究项目:
+        研究方向:
             link: "/projects/"
         获奖:
             link: "/awards/"
