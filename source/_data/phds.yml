@@ -4,12 +4,6 @@
       type: 博士研究生
       descr: '多智能体数字孪生与可视分析'  
 
-赵宇恒: 
-      avatar: '/members/赵宇恒.jpg'
-      type: 博士研究生
-      descr: '大模型驱动的智能可视分析'
-      link: 'https://zyh1222.github.io/'
-
 邵则开:
        avatar: "/members/邵则开.jpg"
        type: 博士研究生
@@ -27,9 +21,9 @@
       descr: '数字人文'
 
 单弋:
-  avatar: "/members/单弋.jpg"
-  type: 博士研究生
-  descr: "可视化构建"
+      avatar: "/members/单弋.jpg"
+      type: 博士研究生
+      descr: "可视化构建"
 
 陈玄: 
       link: 'https://chenxuan.space/'
@@ -60,3 +54,29 @@
       avatar: '/members/陈希.png'
       type: 博士研究生
       descr: "数据要素与人工智能"
+
+王芬:
+      avatar: "/members/王芬.jpg"
+      type: 博士研究生
+      descr: "大模型驱动的图表描述生成"
+
+李由:
+      avatar: '/members/李由.jpg'
+      type: 博士研究生
+      descr: "多智能体 社会模拟 可视分析"
+      link: 'https://reason-you.github.io/'
+
+胡志炫:
+      avatar: '/members/胡志炫.png'
+      type: 博士研究生
+      descr: "可视化与智能系统"
+
+杨雨彤:
+      avatar: '/members/杨雨彤.jpg'
+      type: 博士研究生
+
+刘一博:
+      avatar: '/members/刘一博.jpg'
+      type: 博士研究生
+      descr: "空间智能与多智能体决策"
+      link: 'https://klxxz001.github.io/'

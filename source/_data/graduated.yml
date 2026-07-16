@@ -1,4 +1,90 @@
 # avatar默认相对路径：/micall/source
+graduated_2026:
+  head: "2026"
+  phds:
+    赵宇恒: 
+      avatar: '/members/赵宇恒.jpg'
+      descr: 'ELLIS人工智能研究所/阿尔托大学'
+      link: 'https://zyh1222.github.io/'
+  
+  masters:
+    张异非: 
+      avatar: '/members/张异非.jpg'
+      descr: "网易游戏"
+
+    张潇文: 
+      avatar: '/members/张潇文.jpg'
+
+    丁天睿:
+      avatar: "/members/丁天睿.jpg"
+      descr: "京东"
+
+    郭澳林:
+      avatar: "/members/郭澳林.jpg"
+
+    郭萌:
+      avatar: "/members/郭萌.jpg"
+      descr: "上海市选调生"
+
+    郭佳炜:
+      avatar: "/members/郭佳炜.jpg"
+      descr: "美团"
+
+    李芊慧:
+      avatar: "/members/李芊慧.jpg"
+      descr: "京东"
+
+    林卓然:
+      avatar: "/members/林卓然.jpg"
+    
+    吕昕凯:
+      avatar: "/members/吕昕凯.jpg"
+
+    舒雪莉:
+      avatar: "/members/舒雪莉.jpg"
+      descr: "字节跳动"
+
+    汪柏淼:
+      avatar: "/members/汪柏淼.jpg"
+      descr: "京东"
+
+    王哲:
+      avatar: "/members/王哲.png"
+      descr: "上海亿通国际股份有限公司"
+
+    张梦茹: 
+      avatar: '/members/张梦茹.jpg'
+      descr: "中国农业发展银行"
+
+    朱润宇: 
+      avatar: '/members/朱润宇.jpg'
+      descr: "字节跳动"
+
+    汪怿凯: 
+      avatar: '/members/汪怿凯.png'
+      descr: "兴业银行总行"
+
+  undergraduates:
+    胡济赟:
+      avatar: "/members/胡济赟.jpg"
+      descr: "哈尔滨工业大学（深圳）智能学部"
+
+    孙一:
+      avatar: "/members/孙一.jpg"
+      descr: "UCSD HDSI PhD Student"
+
+    乔一宸:
+      avatar: "/members/乔一宸.png"
+      descr: "哥伦比亚大学"
+
+    张筱霖:
+      avatar: "/members/张筱霖.jpg"
+      descr: "复旦大学管理学院"
+
+    胡琪琳:
+      avatar: "/members/胡琪琳.png"
+      descr: "复旦数字媒体实验室"
+
 graduated_2025:
   head: "2025"
   masters:
@@ -58,7 +144,6 @@ graduated_2025:
       descr: "积优基金"
 
   undergraduates:
-
     郭子菲:
       avatar: "/members/郭子菲.jpg"
       descr: "西北大学"

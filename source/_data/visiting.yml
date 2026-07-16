@@ -74,17 +74,6 @@ Aaron Wiebel:
       institution: '华威大学'
       descr: '访问学生'
 
-李由:
-      avatar: '/members/李由.jpg'
-      institution: '复旦大学'
-      descr: '访问学生'
-      link: 'https://reason-you.github.io/'
-
-胡志炫:
-      avatar: '/members/胡志炫.png'
-      institution: '北京师范大学'
-      descr: '远程访问学生'
-
 Mukhammejanova Dinargul:
       avatar: '/members/Dinargul.jpg'
       institution: 'Al-Farabi Kazakh National University'
@@ -93,4 +82,19 @@ Mukhammejanova Dinargul:
 Suleimenova Madina:
       avatar: '/members/Madina.jpg'
       institution: 'Al-Farabi Kazakh National University'
+      descr: '访问学生'
+
+Verena Prantl:
+      avatar: '/members/Verena.jpg'
+      institution: 'University of Vienna'
+      descr: '访问学生'
+
+任致远:
+      avatar: '/members/任致远.jpg'
+      institution: '新加坡国立大学'
+      descr: '访问学生'
+
+姚博瑞:
+      avatar: '/members/姚博瑞.jpg'
+      institution: 'Imperial College London'
       descr: '访问学生'

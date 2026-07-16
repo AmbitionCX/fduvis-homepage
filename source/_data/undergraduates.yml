@@ -1,12 +1,4 @@
 # 相对路径：/micall/source
-胡济赟:
-  avatar: "/members/胡济赟.jpg"
-  descr: "3D Visual"
-
-孙一:
-  avatar: "/members/孙一.jpg"
-  descr: "自动驾驶可视分析"
-
 曾子桐:
   avatar: "/members/曾子桐.jpg"
   descr: "区块链可视分析"
@@ -23,29 +15,9 @@
   avatar: "/members/郑智君.jpg"
   descr: "智能可视化生成"
 
-乔一宸:
-  avatar: "/members/乔一宸.png"
-  descr: "Explainable AI"
-
-叶锦灏:
-  avatar: "/members/叶锦灏.png"
-  descr: "计算社会科学"
-
 陈航:
   avatar: "/members/陈航.png"
   descr: "人物传记类视频生成"
-
-吴彤羽:
-  avatar: "/members/吴彤羽.png"
-  descr: "UI Agent"
-
-谢欣航:
-  avatar: "/members/谢欣航.png"
-  descr: "社交媒体与智能体仿真"
-
-张筱霖:
-  avatar: "/members/张筱霖.jpg"
-  descr: "智能教育"
 
 程琦:
   avatar: "/members/程琦.png"
@@ -63,17 +35,13 @@
   avatar: "/members/林佳慧.jpg"
   descr: "故事叙述、人物传记视频生成"
 
-蓝杰翔:
-  avatar: "/members/蓝杰翔.png"
-  descr: "智慧城市&智能故事叙述"
-
-胡琪琳:
-  avatar: "/members/胡琪琳.png"
-  descr: "AI+VIS"
-
 刘馨远:
   avatar: "/members/刘馨远.png"
   descr: "Explainable AI "
+
+# 叶锦灏:
+#   avatar: "/members/叶锦灏.png"
+#   descr: "计算社会科学"
 
 # 姚宇欣:
 #   avatar: "/members/姚宇欣.jpg"

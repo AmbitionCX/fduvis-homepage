@@ -1,19 +1,4 @@
 # avatar默认相对路径：/micall/source
-丁天睿:
-  avatar: "/members/丁天睿.jpg"
-  descr: "金融科技"
-
-郭澳林:
-  avatar: "/members/郭澳林.jpg"
-  descr: "大模型后训练"
-
-郭萌:
-  avatar: "/members/郭萌.jpg"
-  descr: "金融科技"
-
-郭佳炜:
-  avatar: "/members/郭佳炜.jpg"
-
 何诣轩:
   avatar: "/members/何诣轩.jpg"
   descr: "AI+VIS"
@@ -21,14 +6,6 @@
 居正:
   avatar: "/members/居正.png"
   descr: "AI+VIS"
-
-李芊慧:
-  avatar: "/members/李芊慧.jpg"
-  descr: "故事叙述"
-
-林卓然:
-  avatar: "/members/林卓然.jpg"
-  descr: "数据智能"
 
 刘臻:
   avatar: "/members/刘臻.jpg"
@@ -38,56 +15,17 @@
   avatar: "/members/卢婧.jpg"
   descr: "领域大模型可视分析"
 
-吕昕凯:
-  avatar: "/members/吕昕凯.jpg"
-  descr: "可解释性AI"
-
 邱天:
   avatar: '/members/邱天.jpg'
   descr: "智能可视化生成"
-
-舒雪莉:
-  avatar: "/members/舒雪莉.jpg"
-  descr: "可视分析"
-
-王芬:
-  avatar: "/members/王芬.jpg"
-  descr: "数字孪生与元宇宙"
-
-王哲:
-  avatar: "/members/王哲.png"
-  descr: "AR+VIS"
-
-汪柏淼:
-  avatar: "/members/汪柏淼.jpg"
-  descr: "故事叙述"
 
 易晨: 
   avatar: '/members/易晨.jpg'
   descr: "社交媒体大模型驱动的智能可视分析"
 
-陈怡行: 
+陈怡行:
   avatar: '/members/陈怡行.jpg'
   descr: "沉浸式可视化"
-
-张梦茹: 
-  avatar: '/members/张梦茹.jpg'
-
-张潇文: 
-  avatar: '/members/张潇文.jpg'
-  descr: "金融可视分析"
-
-张异非: 
-  avatar: '/members/张异非.jpg'
-  descr: "沉浸式可视化、虚拟现实"
-
-朱润宇: 
-  avatar: '/members/朱润宇.jpg'
-  descr: "Explainable AI"
-
-汪怿凯: 
-  avatar: '/members/汪怿凯.png'
-  descr: "区块链金融"
 
 黄俊杰:
   avatar: "/members/黄俊杰.png"
@@ -136,3 +74,47 @@
 毛琦竣:
   avatar: '/members/毛琦竣.png'
   descr: 'UI Agent'
+
+蓝杰翔:
+  avatar: "/members/蓝杰翔.png"
+  descr: "智慧城市&智能故事叙述"
+
+谢欣航:
+  avatar: "/members/谢欣航.png"
+  descr: "社交媒体与智能体仿真"
+
+陈正涵:
+  avatar: "/members/陈正涵.jpg"
+  descr: "AI4VIS/故事叙述"
+
+胡淳然:
+  avatar: "/members/胡淳然.jpg"
+  descr: "社交媒体仿真模拟"
+
+吴彤羽:
+  avatar: "/members/吴彤羽.png"
+  descr: "UI Agent"
+
+刘力端:
+  avatar: "/members/刘力端.jpg"
+  descr: "社交媒体智能体仿真"
+
+李佳宸:
+  avatar: "/members/李佳宸.jpg"
+  descr: "智能教育"
+
+丁厚钦:
+  avatar: "/members/丁厚钦.jpg"
+  descr: "UI Agent / 智能电力"
+
+邹文茜:
+  avatar: "/members/邹文茜.jpg"
+  descr: "3D Visual"
+
+杨朝傑:
+  avatar: "/members/杨朝傑.jpg"
+  descr: "UI Agent"
+
+李思熠:
+  avatar: "/members/李思熠.jpg"
+  descr: "数字孪生 自动驾驶可视分析"
