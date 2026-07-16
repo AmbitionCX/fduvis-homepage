@@ -37,7 +37,11 @@
 
 刘馨远:
   avatar: "/members/刘馨远.png"
-  descr: "Explainable AI "
+  descr: "Explainable AI"
+
+张芷萱:
+  avatar: "/members/张芷萱2.jpg"
+  descr: "大模型驱动的图表描述生成"
 
 # 叶锦灏:
 #   avatar: "/members/叶锦灏.png"
