@@ -36,9 +36,7 @@ graduated_2026:
 
     林卓然:
       avatar: "/members/林卓然.jpg"
-    
-    吕昕凯:
-      avatar: "/members/吕昕凯.jpg"
+      descr: "中信证券股份有限公司"
 
     舒雪莉:
       avatar: "/members/舒雪莉.jpg"
@@ -84,6 +82,10 @@ graduated_2026:
     胡琪琳:
       avatar: "/members/胡琪琳.png"
       descr: "复旦数字媒体实验室"
+
+    吴彤羽:
+      avatar: "/members/吴彤羽.png"
+      descr: "复旦大学大数据学院"
 
 graduated_2025:
   head: "2025"
@@ -307,6 +309,10 @@ graduated_2023:
       周福强:
         avatar: "/members/周福强.jpg"
         descr: "上海南洋万邦软件技术有限公司"
+      
+      吕昕凯:
+        avatar: "/members/吕昕凯.jpg"
+        descr: "腾讯"
 
 graduated_2022:
   head: "2022"
